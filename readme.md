@@ -162,11 +162,98 @@ List of topics containing ethical issues:
 
 <br>
 
-### *__Solution__*
-```sh
-## 10 solution goes here
+### *Solution*
+
+<br>
+
+There are many Python Data Types. Four of the basic BUT most important **data types** are: 
+
+*   String (str)
+*   integer (int)
+*   float ()
+*   boolean True / False
+
+<br>
+
+### **String (str)**
+
+<br>
+
+The data type ```string``` is a string of characters that are created with double quotes.
+The ```string``` data type is useful for Subscripting, which is a method used for pulling
+out a particular element from a string.
+<br>
+
+Here are two examples of ```string``` Subscripting:
+
+The number in between the square brackets determines which 
+character you're going to pull out.
+
+```python
+# E.g. [0] = H, [1] = e, [2] = l etc...
+
+# Example-1
+print("Hello"[0])  # [0] output = letter "H"
+
+# Example-2
+print("Hello"[4])  # [4] output = letter "o"
 
 ```
+
+
+### **integer (int)**
+
+<br>
+
+The data type ```integer``` refers to a number with no decimal places (whole number). The ```int``` data type is usefull for math operations
+
+Example: Math operation - adding integers 
+```python
+print(123 + 345)
+# output = 468
+# - Dont use qoutations("") when declearing Integers.
+
+print(123_456_789) 
+# output = 123456789
+# - Use underscore(_) for when visualizing large numbers in code.
+# - The computer will remove the underscores, and display the number as
+#   if it was concatenated.
+```
+Example: Concatenating integers("string")
+```python
+print("123" + "345")
+# output = 123345
+# Important: Anything inside quotations(" ") is just text (string).
+```
+
+### **Floating-Point Number (float)**
+
+```python
+3.14159 # PI
+3141.59
+734_529.678
+
+# - Floating-Point Number (Float).
+# - The decimal point can float around a number because it could occur
+#   at any point in the number.
+```
+
+### **Boolean (True/False)**
+
+```python
+True
+False
+
+# - Booleans have only two values:
+#       1) True
+#       2) False
+# - Booleans start with capital letters T/F
+# - No quotation marks
+# - Booleans used to test if something is True / False and for your
+#   program to respond accordingly.
+```
+
+
 
 ---
 
