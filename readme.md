@@ -137,10 +137,144 @@ List of topics containing ethical issues:
 ## Q8 	Explain control flow, using examples from the Python programming language
 
 <br>
+Control Flow is a term used in Python to discribe the order in which a Python block of code will be executed.
+
+In Python Control Flow can be divied into the three following categories show in the flow chart below
+
+<br>
+
+
+<img src="./images/T1A1_workbookQ8_control-flow.png" width="50%" alt="Control-Flow flow chart showing three types of Flow Control in Python">
 
 ### *__Solution__*
-```sh
-## Q8 solution goes here
+
+### __Conditional Statements__
+
+The following examples show a range of Conditional Statements using a 'Movie World Batman Rollercoster Ride' and an 'BMI calculator.
+
+<br>
+
+### __```if``` statement__
+
+<br>
+
+The ```if``` statement is Pythons most simplest form of a Control Statement.<br>
+
+The ```if``` statement will take the condition in which it will be a evaluated to either ```true``` or ```false```.<br>
+
+Following example shows ```height``` as the condition. If the user's height is greater than or equal to 120 centimetres then the condition is ```true```, and to print the following statement.
+
+if the condition is ```false```, example the user's height is less than 120 centimetres and the condition is ```false``` and the block of code is skipped.
+```python
+height = 121
+
+# condition: check if user is taller than or equal to 120cm 
+if height >= 120:
+
+    # statement: True  height is >= 120 then display this message
+    print("Nice! You can ride the Batman rollercoaster, here is a complementary vomit bag")
+
+```
+
+<br>
+
+### __```if-else``` statement__
+
+<br>
+
+
+The addition of the ```else``` component in the ```if-else``` statement allows Python to catch another condition.  The following example shows the addition of the ```else``` component.
+
+The ```if-else``` statement will check the condition, if the condition evaluates to ```true``` then statement-1 will be executed, if the condition evaluates to ```false``` then statement-2 will be executed.
+
+
+```python
+height = 121
+
+# condition: check if user is taller than or equal to 120cm 
+if height >= 120:
+    
+    # statement-1: True  height is >= 120 then display this message
+    print("Nice! You can ride the Batman rollercoaster, here is a complementary vomit bag")
+    
+    # statement-2: False in all other case (height < 120) display this message
+else:
+    print("Sorry bud your too short !")
+```
+
+<br>
+
+### __```if-elif-else``` statement__
+
+<br>
+
+```python
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
+bmi = round(weight / height ** 2)
+
+# condition-1 If BMI is less than 18.5kg
+if bmi < 18.5:        
+
+        # statement-1: underweight
+        print(f"Your BMI is {bmi}, you are underweight")
+
+# condition-2: If BMI is less than 25kg
+elif bmi < 25:        
+
+        # statement-2: normal weight
+        print(f"Your BMI is {bmi}, you are in the normal weight range")
+
+# condition-3: If BMI is over 25 but less than 30kg
+elif bmi < 30:        
+
+        # statement-3: overweight
+        print(f"Your BMI is {bmi}, you are overweight")
+
+# condition-4: If BMI is over 30 but less than 35kg
+elif bmi < 35:        
+
+        # statement-4: Fat
+        print(f"Your BMI is {bmi}, you are fat!")
+
+# condition n...
+        ...    
+        # you can add as many elif statements as you like, but they
+        # must be within the 'if-else' condition.
+
+# all other conditions: If BMI is less than 35 => 
+else:      
+    
+    # statement: Super Fat
+    print(f"Your BMI is {bmi}, you are super fat!") 
+
+```
+
+### Nested if-else statement
+
+```python
+
+print("Welcome to the rollercoaster")
+
+height = int(input("What is your height in cm ?"))
+
+if height >= 120:
+   
+    print("You can ride the rollercoaster")
+    age = int(input("What is your age ?"))
+    
+   
+    if age < 12:   
+        print("That will be $5 dollars please")
+    elif age <= 18:     # age is 18 years or younger
+        print("That will be $7 dollars please")
+        #Note:
+        #   1) We can use as many elif statement as we like, BUT must be in the
+        #      if-else condition.
+    else:       # age is over 18 years old (19 +)
+        print("That will be $12 Dollars please")
+else:
+    print("Sorry bud your too short !")
 
 ```
 
@@ -172,6 +306,9 @@ There are many Python Data Types. Four of the basic BUT most important **data ty
 *   integer (int)
 *   float ()
 *   boolean True / False
+> Maybe include the following 2 more data types if I have time
+*   Range ()
+*   List ()
 
 <br>
 
@@ -181,7 +318,7 @@ There are many Python Data Types. Four of the basic BUT most important **data ty
 
 The data type ```string``` is a string of characters that are created with double quotes.
 The ```string``` data type is useful for Subscripting, which is a method used for pulling
-out a particular element from a string.
+out a particular elements from a string.
 <br>
 
 Here are two examples of ```string``` Subscripting:
