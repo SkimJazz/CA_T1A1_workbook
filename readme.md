@@ -2,10 +2,10 @@
 
 
 ## 1️⃣ **Identify** and **explain** common and important components and concepts of web development markup languages. ❓
----
 
 
-### 💲 __ANS__
+
+### 💲 __Solution__
 
 <br>
 
@@ -412,7 +412,7 @@ fahrenheit = (celsius * 9/5)+32
 print(f"The result is: {fahrenheit}.")
 ```
 
-### *__Solution__*
+### 💲 __Solution__
 
 In Python, all inputs are Strings regardless of wether the user inputs a number
 or a letter.
@@ -445,10 +445,21 @@ print (i)
 ```
 
 
-### *__Solution__*
-```sh
-## 13 solution goes here
+### 💲 __Solution__
+```py
+arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
 
+while (i < len(arr) -1) and (arr[i] < arr[i+1] ):
+
+    i += 1
+    
+    if (i < len(arr) -1) and (arr[i] > arr[i+1]):
+        j = arr[i]
+        arr[i] = arr[i + 1]
+        arr[i + 1] = j
+
+print(arr)
 ```
 
 ---
