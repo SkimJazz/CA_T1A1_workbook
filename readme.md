@@ -1,35 +1,33 @@
 # T1A1-Workbook
 
 
-## Q1 	**Identify** and **explain** common and important components and concepts of web development markup languages
+## 1️⃣ **Identify** and **explain** common and important components and concepts of web development markup languages. ❓
+---
+
+
+### 💲 __ANS__
 
 <br>
 
-### *__Solution__*
+The first thing you see when visiting a particular website is a web page or document.
+ 
+These web pages contain markup languages such as Hypertext Markup Language (HTML).
 
-<br>
-
-The first thing you see when you go to a particular website is a web page or web document.
-
-These web pages contain Markup Languages such as Hypertext Markup Language (HTML). 
-HTML is used to structure and describe the content within these web pages.
-
-An important concept for markup languages such as HTML is that the structure of an HTML document is defined by the nesting of HTML Elements to form a hierarchy.
-
-A HTML Element structure includes a start tag, tag name, an attribute name with an attribute value the element content (the text affected by the tag meaning) and finally the end tag of the element. Elements are either block level elements or inline elements.
+A website designer or front-end developer will use HTML to structure and describe the content within these web pages.
+ 
+An essential concept for markup languages such as HTML is that the nesting of HTML Elements defines the structure of an HTML document to form a hierarchy.
+ 
+An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribute Name" with an "Attribute Value" of the "Element Content" (the text affected by the tag meaning) and the element's "End Tag". Elements are either block-level elements or inline elements. The following diagram shows the anatomy of an HTML Element.
 
 
 
+<img src="./images/workbook_q1_markup-languages.jpg" width="50%" alt="Control-Flow flow chart showing three types of Flow Control in Python">
 
-```html
 
-<!-- Question needs more work -->
 
-<h1> This is an example of an HTML element </h1>
-
-```
 
 ---
+
 
 
 ## Q2 	**Define** the features of the following technologies that are essential in terms of the development of the internet:
