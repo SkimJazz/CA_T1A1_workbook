@@ -9,11 +9,7 @@
 
 <br>
 
-The first thing you see when visiting a particular website is a web page or document.
- 
-These web pages contain markup languages such as Hypertext Markup Language (HTML).
-
-A website designer or front-end developer will use HTML to structure and describe the content within these web pages.
+The first thing you see when visiting a particular website is a web page or document. These web pages contain markup languages such as Hypertext Markup Language (HTML). A website designer or front-end developer will use HTML to structure and describe the content within these web pages.
  
 An essential concept for markup languages such as HTML is that the nesting of HTML Elements defines the structure of an HTML document to form a hierarchy.
  
@@ -21,7 +17,7 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 
 
 
-<img src="./images/workbook_q1_markup-languages.jpg" width="50%" alt="Control-Flow flow chart showing three types of Flow Control in Python">
+<img src="./images/workbook_q1_markup-languages.jpg" width="100%" alt="Control-Flow flow chart showing three types of Flow Control in Python">
 
 
 
