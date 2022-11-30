@@ -30,7 +30,7 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 
 
 
-## Q2 	**Define** the features of the following technologies that are essential in terms of the development of the internet:
+## Q2 	**Define** the features of the following technologies that are essential in terms of the development of the internet:❓
  - packets
  - IP addresses (IPv4 and IPv6)
  - routers and routing
@@ -40,7 +40,8 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 
 <br>
 
-### *__Solution__*
+### 💲 __Solution__
+
 ```sh
 ## Q2 solution goes here
 
@@ -460,6 +461,10 @@ while (i < len(arr) -1) and (arr[i] < arr[i+1] ):
         arr[i + 1] = j
 
 print(arr)
+
+
+
+
 ```
 
 ---
