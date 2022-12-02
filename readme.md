@@ -447,18 +447,15 @@ print (i)
 arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
 i = 0
 
-while (i < len(arr) -1) and (arr[i] < arr[i+1] ):
-
-    i += 1
+while (i < len(arr) -1) and (arr[i] < arr[i+1] ): 
     
-    if (i < len(arr) -1) and (arr[i] > arr[i+1]):
-        j = arr[i]
-        arr[i] = arr[i + 1]
-        arr[i + 1] = j
+    i = i + 1 
 
-print(arr)
-
-
+print(i)
+j = arr[i]
+arr[i] = arr[i + 1] 
+arr[i + 1] = j
+#output = [5, 22, 29, 19, 39, 51, 78, 96, 84]
 
 
 ```
