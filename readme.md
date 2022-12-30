@@ -414,7 +414,7 @@ print(f"The result is: {fahrenheit}.")
 In Python, all inputs are Strings regardless of wether the user inputs a number
 or a letter.
 
-```python
+```py
 # Include int function to change input String to Interger 
 celsius = int(input()) # Str
 
@@ -431,7 +431,7 @@ print(f"The result is: {fahrenheit}.")
 
 ## Q13 	The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
-```python
+```py
 arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
 i = 0
 while (i< arr.len() -1) and (arr[i] < arr[i+1]):
@@ -509,11 +509,42 @@ arr[i + 1] = j
 <br>
 
 ### *__Solution__*
-```sh
-## 16 solution goes here 
+
+```py
+
+print("\nACME Corporation")
+
+skills = ['python', 'ruby', 'bash', 'git', 'html', 'tdd', 'css', 'javascript']
+
+scores = [1, 2, 4, 8, 16, 32, 64, 128]
+
+userInput = []
+
+print("\nEnter q to exit")
+print("\nInput your coding skills (In words)")
+
+uInput = str(input())
+for i in range(0, len(skills)):
+    if(uInput == 'q' or uInput == 'Q'):
+        break
+    if(uInput.lower() in skills):
+        userInput.append(skills.index(uInput.lower()))
+    uInput = str(input())
+
+score = 0
+for i in range(0, len(userInput)):
+    score = score + scores[userInput[i]]
+
+print("\nYour total coding skill score is", score)
+
+print("\nYou may want to learn the following skills which will improve score by")
+for i in range(0, len(skills)):
+    if(i in userInput):
+        continue
+    print(skills[i], " ", score+int(scores[i]))
 
 ```
-wsl/ubuntu push to GitHub reop test.
+
 
 
 ---
