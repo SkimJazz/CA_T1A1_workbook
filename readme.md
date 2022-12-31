@@ -1,13 +1,12 @@
 # T1A1-Workbook
 
 
-## 1️⃣ **Identify** and **explain** common and important components and concepts of web development markup languages. ❓
+## Q1: **Identify** and **explain** common and important components and concepts of web development markup languages.
 
 
 
 ### 💲 __Solution__
 
-<br>
 
 The first thing you see when visiting a particular website is a web page or document. These web pages contain markup languages such as Hypertext Markup Language (HTML). A website designer or front-end developer will use HTML to structure and describe the content within these web pages.
  
@@ -26,7 +25,7 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 
 
 
-## Q2 	**Define** the features of the following technologies that are essential in terms of the development of the internet:❓
+## Q2:	**Define** the features of the following technologies that are essential in terms of the development of the internet:
  - packets
  - IP addresses (IPv4 and IPv6)
  - routers and routing
@@ -38,14 +37,14 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 
 ### 💲 __Solution__
 
-```sh
+```py
 ## Q2 solution goes here
 
 ```
 
 ---
 
-## Q3 	**Define** the features of the following technologies that are essential in terms of the development of the internet:
+## Q3:	**Define** the features of the following technologies that are essential in terms of the development of the internet:
  - TCP
  - HTTP and HTTPS
  - web browsers (requests, rendering and developer tools)
@@ -54,8 +53,8 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 
 <br>
 
-### *__Solution__*
-```sh
+### 💲 __Solution__
+```py
 ## Q3 solution goes here
 
 ```
@@ -63,12 +62,12 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 ---
 
 
-## Q4 	**Identify** THREE data structures used in the Python programming language and **explain** the reasons for using each.
+## Q4:	**Identify** THREE data structures used in the Python programming language and **explain** the reasons for using each.
 
 <br>
 
-### *__Solution__*
-```sh
+### 💲 __Solution__
+```py
 ## Q4 solution goes here
 
 ```
@@ -76,12 +75,12 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 ---
 
 
-## Q5 	**Describe** the features of interpreters and compilers and how they are different.
+## Q5:	**Describe** the features of interpreters and compilers and how they are different.
 
 <br>
 
-### *__Solution__*
-```sh
+### 💲 __Solution__
+```py
 ## Q5 solution goes here
 
 ```
@@ -89,19 +88,19 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 ---
 
 
-## Q6 	**Identify** TWO commonly used programming languages and **explain** the benefits and drawbacks of each.
+## Q6:	**Identify** TWO commonly used programming languages and **explain** the benefits and drawbacks of each.
 
 <br>
 
-### *__Solution__*
-```sh
+### 💲 __Solution__
+```py
 ## Q6 solution goes here
 
 ```
 
 ---
 
-## Q7 	**Identify** TWO ethical issues from the areas below and **discuss** the extent to which an IT professional is ethically responsible in terms of the issue.
+## Q7:	**Identify** TWO ethical issues from the areas below and **discuss** the extent to which an IT professional is ethically responsible in terms of the issue.
 
 List of topics containing ethical issues:
  - access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
@@ -118,18 +117,19 @@ List of topics containing ethical issues:
 
 <br>
 
-### *__Solution__*
-```sh
+### 💲 __Solution__
+```py
 ## Q7 solution goes here
 
 ```
 
 ---
 
-### *__Following questions are Python related__*
+###  *__Following questions are Python related__*
+
 ---
 
-## Q8 	Explain control flow, using examples from the Python programming language
+## Q8:	Explain control flow, using examples from the Python programming language
 
 <br>
 Control Flow is a term used in Python to discribe the order in which a Python block of code will be executed.
@@ -141,7 +141,7 @@ In Python Control Flow can be divied into the three following categories show in
 
 <img src="./images/T1A1_workbookQ8_control-flow.png" width="50%" alt="Control-Flow flow chart showing three types of Flow Control in Python">
 
-### *__Solution__*
+### 💲 __Solution__
 
 ### __Conditional Statements__
 
@@ -160,7 +160,7 @@ The ```if``` statement will take the condition in which it will be a evaluated t
 Following example shows ```height``` as the condition. If the user's height is greater than or equal to 120 centimetres then the condition is ```true```, and to print the following statement.
 
 if the condition is ```false```, example the user's height is less than 120 centimetres and the condition is ```false``` and the block of code is skipped.
-```python
+```py
 height = 121
 
 # condition: check if user is taller than or equal to 120cm 
@@ -183,7 +183,7 @@ The addition of the ```else``` component in the ```if-else``` statement allows P
 The ```if-else``` statement will check the condition, if the condition evaluates to ```true``` then statement-1 will be executed, if the condition evaluates to ```false``` then statement-2 will be executed.
 
 
-```python
+```py
 height = 121
 
 # condition: check if user is taller than or equal to 120cm 
@@ -203,7 +203,7 @@ else:
 
 <br>
 
-```python
+```py
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
 bmi = round(weight / height ** 2)
@@ -247,7 +247,7 @@ else:
 
 ### Nested if-else statement
 
-```python
+```py
 
 print("Welcome to the rollercoaster")
 
@@ -275,11 +275,11 @@ else:
 
 ---
 
-## Q9 	Explain the difference between type coercion and type conversion. Are either of these used in Python?
+## Q9:	Explain the difference between type coercion and type conversion. Are either of these used in Python?
 
 <br>
 
-### *__Solution__*
+### 💲 __Solution__
 ```sh
 ## Q9 solution goes here
 
@@ -287,11 +287,11 @@ else:
 
 ---
 
-## Q10 	Explain data types, using examples
+## Q10: 	Explain data types, using examples
 
 <br>
 
-### *Solution*
+### 💲 __Solution__
 
 <br>
 
@@ -321,7 +321,7 @@ Here are two examples of ```string``` Subscripting:
 The number in between the square brackets determines which 
 character you're going to pull out.
 
-```python
+```py
 # E.g. [0] = H, [1] = e, [2] = l etc...
 
 # Example-1
@@ -340,7 +340,8 @@ print("Hello"[4])  # [4] output = letter "o"
 The data type ```integer``` refers to a number with no decimal places (whole number). The ```int``` data type is usefull for math operations
 
 Example: Math operation - adding integers 
-```python
+
+```py
 print(123 + 345)
 # output = 468
 # - Dont use qoutations("") when declearing Integers.
@@ -352,7 +353,8 @@ print(123_456_789)
 #   if it was concatenated.
 ```
 Example: Concatenating integers("string")
-```python
+
+```py
 print("123" + "345")
 # output = 123345
 # Important: Anything inside quotations(" ") is just text (string).
@@ -360,7 +362,7 @@ print("123" + "345")
 
 ### **Floating-Point Number (float)**
 
-```python
+```py
 3.14159 # PI
 3141.59
 734_529.678
@@ -372,7 +374,7 @@ print("123" + "345")
 
 ### **Boolean (True/False)**
 
-```python
+```py
 True
 False
 
@@ -389,19 +391,19 @@ False
 
 ---
 
-## Q11 	Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
+## Q11:	Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
  - Identify the classes you would use to solve the problem
  - Write a short explanation of why you would use the classes you have identified
 
-### *__Solution__*
-```sh
+### 💲 __Solution__
+```py
 ## 11 solution goes here
 
 ```
 
 ---
 
-## Q12 	Identify and explain the error in the code snippet below that is preventing correct execution of the program
+## Q12:	Identify and explain the error in the code snippet below that is preventing correct execution of the program
 
 ```python
 celsius = input()
@@ -429,7 +431,7 @@ print(f"The result is: {fahrenheit}.")
 
 ---
 
-## Q13 	The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
+## Q13:	The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
 ```py
 arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
@@ -462,34 +464,36 @@ arr[i + 1] = j
 
 ---
 
-## Q14 	Demonstrate your algorithmic thinking through completing the following two tasks, in order:
+## Q14:	Demonstrate your algorithmic thinking through completing the following two tasks, in order:
  1. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
  2. Write pseudocode for the process outlined in your flowchart
 
 <br>
 
-### *__Solution__*
-```sh
+### 💲 __Solution__
+
+```py
 ## 14 solution goes here
 
 ```
 
 ---
 
-## Q15 	Write pseudocode OR Python code for the following problem:
+## Q15:	Write pseudocode OR Python code for the following problem:
 *You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”*.
 
 <br>
 
-### *__Solution__*
-```sh
+### 💲 __Solution__
+
+```py
 ## 15 solution goes here
 
 ```
 
 ---
 
-## Q16 	ACME Corporation are hiring a new junior developer, as part of their hiring criteria they've created a "coding skill score" based on the specific competencies they require for this role; the more important the skill is for ACME corp, the more points it contributes to the "coding skill score" The skills are weighted as follows:
+## Q16:	ACME Corporation are hiring a new junior developer, as part of their hiring criteria they've created a "coding skill score" based on the specific competencies they require for this role; the more important the skill is for ACME corp, the more points it contributes to the "coding skill score" The skills are weighted as follows:
 - Python (1)
 - Ruby (2)
 - Bash (4)
@@ -508,7 +512,7 @@ arr[i + 1] = j
 
 <br>
 
-### *__Solution__*
+### 💲 __Solution__
 
 ```py
 
@@ -544,7 +548,5 @@ for i in range(0, len(skills)):
     print(skills[i], " ", score+int(scores[i]))
 
 ```
-
-
 
 ---
