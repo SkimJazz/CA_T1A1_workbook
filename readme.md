@@ -1,5 +1,6 @@
 # T1A1-Workbook
 
+---
 
 ## Q1: **Identify** and **explain** common and important components and concepts of web development markup languages.
 
@@ -19,10 +20,7 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 <img src="./images/workbook_q1_markup-languages.jpg" width="100%" alt="Control-Flow flow chart showing three types of Flow Control in Python">
 
 
-
-
 ---
-
 
 
 ## Q2:	**Define** the features of the following technologies that are essential in terms of the development of the internet:
@@ -294,14 +292,15 @@ else:
 ### 💲 __Solution__
 
 <br>
+There are many Python Data Types, but generally, a Python Data Type is a concept used to define some value stored in a variable. Data Types can take on different sizes and values and help you understand the operation needed to calculate some value. 
 
-There are many Python Data Types. Four of the basic BUT most important **data types** are: 
+For this workbook, the following 6 Python Data Types will be explained.
+
 
 *   String (str)
 *   integer (int)
 *   float ()
 *   boolean True / False
-> Maybe include the following 2 more data types if I have time
 *   Range ()
 *   List ()
 
@@ -387,7 +386,39 @@ False
 #   program to respond accordingly.
 ```
 
+### **Range()**
 
+```range()``` is a Python built-in function used for generating a sequence of numbers within a range of numbers
+starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+
+```py
+# Basic range() syntax
+range(start, stop)
+```
+
+```py
+# Generate integer numbers
+# start = 1, stop = 10
+num = range(1, 10)
+
+
+# iterate range using for loop
+for num in range(1, 10):
+    print(num, end=" ")
+# Output 1 2 3 4 5 6 7 8 9 
+# NOTE range() will output numbers from 1 to 10 but will NOT include 10
+
+
+```
+
+
+### **List()**
+
+```py
+
+
+
+```
 
 ---
 
