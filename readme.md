@@ -414,9 +414,15 @@ for num in range(1, 10):
 
 ### **List()**
 
+A ```list()``` A list() is what you would call a Data Structure. It is a way of organizing and storing data in Python.
+And are generally a way to keep an ordered sequence of multiple items in a single variable.
 ```py
+# Example:
 
+queensland_cities = ["Cairns", "Townsville", "Brisbane", "Gold Coast"]    
 
+print(queensland_cities)
+# output = Cairns Townsville Brisbane Gold Coast
 
 ```
 
