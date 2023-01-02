@@ -166,7 +166,6 @@ if height >= 120:
 
     # statement: True  height is >= 120 then display this message
     print("Nice! You can ride the Batman rollercoaster, here is a complementary vomit bag")
-
 ```
 
 <br>
@@ -239,8 +238,7 @@ elif bmi < 35:
 else:      
     
     # statement: Super Fat
-    print(f"Your BMI is {bmi}, you are super fat!") 
-
+    print(f"Your BMI is {bmi}, you are super fat!")
 ```
 
 ### Nested if-else statement
@@ -268,7 +266,6 @@ if height >= 120:
         print("That will be $12 Dollars please")
 else:
     print("Sorry bud your too short !")
-
 ```
 
 ---
@@ -287,12 +284,10 @@ else:
 
 ## Q10: 	Explain data types, using examples
 
-<br>
 
 ### 💲 __Solution__
 
-<br>
-There are many Python Data Types, but generally, a Python Data Type is a concept used to define some value stored in a variable. Data Types can take on different sizes and values and help you understand the operation needed to calculate some value. 
+There are many Python Data Types, but generally, a Python Data Type is a concept used to define some value stored in a variable. Data Types can take on different sizes and values and help you understand the operation needed to calculate some value.
 
 For this workbook, the following 6 Python Data Types will be explained.
 
@@ -306,44 +301,46 @@ For this workbook, the following 6 Python Data Types will be explained.
 
 <br>
 
-### **String (str)**
+### **String ( ) data type**
 
+The data type ```string()``` is a string of characters that are created with double quotes.
+The ```string()``` data type is useful for Subscripting, which is a method used for pulling
+out particular elements from a string.
 <br>
 
-The data type ```string``` is a string of characters that are created with double quotes.
-The ```string``` data type is useful for Subscripting, which is a method used for pulling
-out a particular elements from a string.
-<br>
+The following is an example of using the Subscripting method with the ```string()``` data type
 
-Here are two examples of ```string``` Subscripting:
-
-The number in between the square brackets determines which 
-character you're going to pull out.
 
 ```py
-# E.g. [0] = H, [1] = e, [2] = l etc...
+# The number in between the square brackets determines which character you're going to pull out.
+# [0] = H, [1] = e, [2] = l, [3] = l, [4] = o
 
-# Example-1
-print("Hello"[0])  # [0] output = letter "H"
+# Example-1:
 
-# Example-2
-print("Hello"[4])  # [4] output = letter "o"
+print("Hello"[0])   #[0] output = letter "H"
 
+
+# Example-2:
+
+print("Hello"[4])  #[4] output = letter "o"
 ```
-
-
-### **integer (int)**
-
 <br>
 
-The data type ```integer``` refers to a number with no decimal places (whole number). The ```int``` data type is usefull for math operations
+### **integer ( ) data type**
 
-Example: Math operation - adding integers 
+The data type ```integer()``` refers to a number with no decimal places (whole number). The ```int``` data type is 
+useful for math operations.
+
+
 
 ```py
+# Example: Math operation - adding integers
+
+
 print(123 + 345)
 # output = 468
 # - Dont use qoutations("") when declearing Integers.
+
 
 print(123_456_789) 
 # output = 123456789
@@ -351,15 +348,21 @@ print(123_456_789)
 # - The computer will remove the underscores, and display the number as
 #   if it was concatenated.
 ```
-Example: Concatenating integers("string")
+
 
 ```py
+# Example: Concatenating integers("string")
+
+
 print("123" + "345")
 # output = 123345
 # Important: Anything inside quotations(" ") is just text (string).
 ```
+<br>
 
-### **Floating-Point Number (float)**
+### **float ( )**
+
+```float()``` also known as floating-Point Number 
 
 ```py
 3.14159 # PI
