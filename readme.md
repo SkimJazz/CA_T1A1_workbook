@@ -522,13 +522,27 @@ arr[i + 1] = j
 ## Q15:	Write pseudocode OR Python code for the following problem:
 *You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”*.
 
-<br>
-
 ### 💲 __Solution__
 
 ```py
-## 15 solution goes here
+raining = True
+temp = 15
 
+def weather_forecast ()
+
+	if raining and temp < 15 degrees
+		print("It’s wet and cold”)
+	
+	elif temp < 15 and != raining
+		print("It’s not raining but cold”)
+	
+	elif temp >= 15 and != raining
+		print("It’s warm but not raining”)
+		
+	else 
+		print("It’s warm and raining”)
+
+weather_forecase()
 ```
 
 ---
