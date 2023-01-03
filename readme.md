@@ -542,7 +542,7 @@ def weather_forecast ()
 	else 
 		print("It’s warm and raining”)
 
-weather_forecase()
+weather_forecast()
 ```
 
 ---
