@@ -528,7 +528,7 @@ arr[i + 1] = j
 raining = True
 temp = 15
 
-def weather_forecast ()
+def weather_forecast()
 
 	if raining and temp < 15 degrees
 		print("It’s wet and cold”)
@@ -540,7 +540,7 @@ def weather_forecast ()
 		print("It’s warm but not raining”)
 		
 	else 
-		print("It’s warm and raining”)
+	    print("It’s warm and raining”)
 
 weather_forecast()
 ```
