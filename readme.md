@@ -17,7 +17,7 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 
 
 
-<img src="./images/workbook_q1_markup-languages.jpg" width="100%" alt="Control-Flow flow chart showing three types of Flow Control in Python">
+<img src="./images/workbook_q1_markup-languages.jpg" width="814" alt="Control-Flow flow chart showing three types of Flow Control in Python">
 
 
 ---
@@ -107,11 +107,14 @@ List of topics containing ethical issues:
  - GPS tracking data and other types of metadata, MAC addresses, hardware fingerprints
  - freedom of thought, conscience, speech and the media
  - aggressive sales and marketing practices designed to mislead and deceive consumers
- - trading of shares on the stock exchange OR crypto-currencies
+ - trading of shares on the stock exchange OR cryptocurrencies
 
-> For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way. (Word count guide: 200 words max)
+> For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the
+> law is helpful in assisting a developer to act in an ethical way. (Word count guide: 200 words max)
 
-> Conduct **research** into a case study of **ONE** of the ethical issues you have chosen **discuss** how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)
+> Conduct **research** into a case study of **ONE** of the ethical issues you have chosen **discuss** how an ethical IT
+> professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count 
+> guide: 400 - 600 words)
 
 <br>
 
@@ -130,20 +133,20 @@ List of topics containing ethical issues:
 ## Q8:	Explain control flow, using examples from the Python programming language
 
 <br>
-Control Flow is a term used in Python to discribe the order in which a Python block of code will be executed.
+Control Flow is a term used in Python to describe the order in which a Python block of code will be executed.
 
-In Python Control Flow can be divied into the three following categories show in the flow chart below
+In Python Control Flow can be divided into the three following categories show in the flow chart below
 
 <br>
 
 
-<img src="./images/T1A1_workbookQ8_control-flow.png" width="50%" alt="Control-Flow flow chart showing three types of Flow Control in Python">
+<img src="./images/T1A1_workbookQ8_control-flow.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python">
 
 ### 💲 __Solution__
 
 ### __Conditional Statements__
 
-The following examples show a range of Conditional Statements using a 'Movie World Batman Rollercoster Ride' and an 'BMI calculator.
+The following examples show a range of Conditional Statements using a 'Movie World Batman Roller Coaster Ride' and an BMI calculator.
 
 <br>
 
@@ -151,9 +154,9 @@ The following examples show a range of Conditional Statements using a 'Movie Wor
 
 <br>
 
-The ```if``` statement is Pythons most simplest form of a Control Statement.<br>
+The ```if``` statement is Pythons simplest form of a Control Statement.<br>
 
-The ```if``` statement will take the condition in which it will be a evaluated to either ```true``` or ```false```.<br>
+The ```if``` statement will take the condition in which it will be evaluated to either ```true``` or ```false```.<br>
 
 Following example shows ```height``` as the condition. If the user's height is greater than or equal to 120 centimetres then the condition is ```true```, and to print the following statement.
 
@@ -360,7 +363,7 @@ print("123" + "345")
 ```
 <br>
 
-### **float ( )**
+### **float ( ) data type**
 
 ```float()``` also known as floating-Point Number 
 
@@ -374,7 +377,7 @@ print("123" + "345")
 #   at any point in the number.
 ```
 
-### **Boolean (True/False)**
+### **Boolean values (True/False)**
 
 ```py
 True
@@ -389,7 +392,7 @@ False
 #   program to respond accordingly.
 ```
 
-### **Range()**
+### **Range () data type**
 
 ```range()``` is a Python built-in function used for generating a sequence of numbers within a range of numbers
 starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
@@ -415,7 +418,7 @@ for num in range(1, 10):
 ```
 
 
-### **List()**
+### **List () data type**
 
 A ```list()``` is what you would call a Data Structure. It is a way of organizing and storing data in Python.
 And are generally a way to keep an ordered sequence of multiple items in a single variable.
@@ -453,7 +456,7 @@ print(f"The result is: {fahrenheit}.")
 
 ### 💲 __Solution__
 
-In Python, all inputs are Strings regardless of wether the user inputs a number
+In Python, all inputs are Strings regardless of weather the user inputs a number
 or a letter.
 
 ```py
@@ -557,14 +560,11 @@ weather_forecast()
 - CSS (64)
 - JavaScript (128)
 
-<br>
-
 >### **Write a program that allows a user to input their skills and then tells them:**
 
 - a)Their overall "coding skill score" 
 - b) Skills they may want to learn, and how much each one would improve their score
 
-<br>
 
 ### 💲 __Solution__
 
