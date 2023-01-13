@@ -157,7 +157,7 @@ Wikipedia (2022) describes a Web browser as an "application software for accessi
 frontend and backend technologies and work in a coordinated attempt at delivering a seamless web experience to the user.
 Figure 2 shows the technologies and architecture of a web browser.
 
-<img src="./images/T1A1_workbookQ3_web-browser.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="500">
+<img src="./images/T1A1_workbookQ3_web-browser.png" width="1772" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="1125">
 Figure-2 Web browser architecture
 
 <br>
@@ -198,13 +198,23 @@ the performance of webpages (Microsoft, 2022).
 
 ## Q5:	**Describe** the features of interpreters and compilers and how they are different.
 
-<br>
 
 ### 💲 __Solution__
-```py
-## Q5 solution goes here
 
-```
+<br>
+
+Interpreters and Compilers convert high-level programming languages into a computer's elemental language, known as 
+machine code; however, there are several essential differences between Interpreters and Compilers (TechTarget, 2018).
+
+The primary function of a __compiler__ is to create an executable program by translating a high-level programming language 
+(source code) into a low-level programming language or machine code. An __interpreter__ can directly execute the 
+instructions written in the high-level programming language without compiling or translating the programming language 
+into machine code (Geeksforgeeks, 2022). Table-1 shows the difference between interpreters and compilers 
+(Programiz, n.d).
+
+<br>
+
+<img src="./images/T1A1_workbookQ5_table-interpreter-vs-compiler.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="500">
 
 ---
 
