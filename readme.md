@@ -157,7 +157,7 @@ Wikipedia (2022) describes a Web browser as an "application software for accessi
 frontend and backend technologies and work in a coordinated attempt at delivering a seamless web experience to the user.
 Figure 2 shows the technologies and architecture of a web browser.
 
-<img src="./images/T1A1_workbookQ3_web-browser.png" width="1772" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="1125">
+<img src="./images/T1A1_workbookQ3_web-browser.png" width="800" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="500">
 Figure-2 Web browser architecture
 
 <br>
@@ -214,7 +214,7 @@ into machine code (Geeksforgeeks, 2022). Table-1 shows the difference between in
 
 <br>
 
-<img src="./images/T1A1_workbookQ5_table-interpreter-vs-compiler.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="500">
+<img src="./images/T1A1_workbookQ5_table-interpreter-vs-compiler.png" width="800" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="600">
 
 ---
 
