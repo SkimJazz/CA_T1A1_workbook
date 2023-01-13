@@ -9,16 +9,20 @@
 ### 💲 __Solution__
 
 
-The first thing you see when visiting a particular website is a web page or document. These web pages contain markup languages such as Hypertext Markup Language (HTML). A website designer or front-end developer will use HTML to structure and describe the content within these web pages.
+The first thing you see when visiting a particular website is a web page or document. These web pages contain markup 
+languages such as Hypertext Markup Language (HTML). A website designer or front-end developer will use HTML to structure
+and describe the content within these web pages.
  
-An essential concept for markup languages such as HTML is that the nesting of HTML Elements defines the structure of an HTML document to form a hierarchy.
+An essential concept for markup languages such as HTML is that the nesting of HTML Elements defines the structure of an 
+HTML document to form a hierarchy.
  
-An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribute Name" with an "Attribute Value" of the "Element Content" (the text affected by the tag meaning) and the element's "End Tag". Elements are either block-level elements or inline elements. The following diagram shows the anatomy of an HTML Element.
-
+An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribute Name" with an "Attribute Value" of 
+the "Element Content" (the text affected by the tag meaning) and the element's "End Tag". Elements are either 
+block-level elements or inline elements. Figure 1 shows the anatomy of an HTML Element.
 
 
 <img src="./images/workbook_q1_markup-languages.jpg" width="814" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="448">
-
+Figure-1 Anatomy of an HTML Element
 
 ---
 
@@ -151,15 +155,29 @@ protect integrity and privacy during client-server data transfer (Goralski, 2017
 
 Wikipedia (2022) describes a Web browser as an "application software for accessing websites". Web browsers are built of 
 frontend and backend technologies and work in a coordinated attempt at delivering a seamless web experience to the user.
-Figure # shows the technologies and architecture of a web browser.
+Figure 2 shows the technologies and architecture of a web browser.
 
 <img src="./images/T1A1_workbookQ3_web-browser.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="500">
+Figure-2 Web browser architecture
+
+<br>
 
 
+Web browsers play a pivotal role in accessing information on the internet. A user directly interacts with the web 
+browser on their device via the User Interface (UI). UI is responsible for the visual elements of the browser, such as
+input controls (dropdown list), navigation (search fields), and information components (notifications); without the UI,
+for a general user, it would not be easy to interact with a computer system (Garrett, 2010).
 
+Upon requesting content such as a webpage through the browser's UI, the rendering engine retrieves the content of the 
+requested webpage. At the same time, the browser renders the requested content, such as HTML and XML elements and 
+images styled using CSS, in the webpage to form the visual content displayed in the desired order or layout 
+(Unadkat, 2022).
 
-
-
+In addition to the web browser's ability to render retrieved content, most browsers include developer tools and 
+generally appear alongside the rendered webpage within the browser. A developer uses developer tools for the design and 
+engagement of webpages, and end users' engagement is a critical factor when designing webpages. Developers usually 
+follow webpage and website design principles; developer tools are a powerful way to inspect, debug, emulate, and check 
+the performance of webpages (Microsoft, 2022).
 
 
 ---
