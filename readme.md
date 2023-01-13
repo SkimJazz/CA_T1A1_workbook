@@ -17,7 +17,7 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 
 
 
-<img src="./images/workbook_q1_markup-languages.jpg" width="814" alt="Control-Flow flow chart showing three types of Flow Control in Python">
+<img src="./images/workbook_q1_markup-languages.jpg" width="814" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="448">
 
 
 ---
@@ -31,14 +31,77 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 
 > **Explain** how each technology has contributed to the development of the internet.
 
-<br>
 
 ### 💲 __Solution__
 
-```py
-## Q2 solution goes here
+<br>
 
-```
+#### Packets
+
+The information transferred from one computer to another does not have to follow a fixed path, and the way for data 
+transfer can change during a computer-to-computer interaction. Information goes from one computer to another in a 
+"Packet" of information, and packet delivery depends upon network traffic on the route the packet is taking 
+(Code.org, 2015, 0:01:27).
+
+A Packet is a small segment of more extensive digital information or data, such as Music or Video. When data is sent 
+over a computer network, such as the Internet, it is divided into pieces where the pieces might take different paths 
+(Code.org, 2015, 0:02:19). Packets do not choose their route but have the IP address of where they are coming from and 
+where they are going. Still, ultimately all packets arrive at their destination, where the packet data is recombined by
+the device that receives them (Nimkarde, 2018).
+
+<br>
+
+#### IP Addresses (IPv4 and IPv6)
+
+One of the most essential Protocols used in internet communication is the Internet Protocol or IP. An IP is a set of 
+rules and standards used to communicate between machines, such as computers (Viles, 2022). Every computer is assigned a 
+unique set of IP numbers to form an IP Address to send and receive data or Packets (Code.org, 2015, 0:03:01).
+
+When you visit a website, your computer asks another computer on the network for information. Your computer sends a 
+message to the other computer's IP Address along with its origin IP Address so the receiving computer knows where to 
+send its response (Nimkarde, 2018).
+
+Your computer currently has two IP Addresses, IPv4, an IP address standard established in the 1970s and IPv6, a new 
+standard for IP Addresses. IPv4 is a 32-bit numbered address widely adopted in the 1980s and is a stable IP address 
+standard for identifying over 4 billion devices on the internet (Code.org, 2015, 0:03:35). 
+
+Due to the internet's popularity, the IP Address standard is transitioning from IPv4 to a new IP address standard 
+called IPv6, a longer IP address format resulting in a 128-bit numbered address to provide a more significant amount of 
+unique IP addresses for the increase of connected devices and the ongoing development of the internet 
+(Code.org, 2015, 0:04:04).
+
+
+<br>
+
+#### Routers and Routing
+
+Routers are special computers that act like internet traffic managers, keeping the packets moving through the networks 
+smoothly by forwarding data packets between computer networks. As part of the Internet Protocol, each Router keeps 
+track of multiple paths for sending packets and are connected to at least two paths at any given time 
+(Code.org, 2015, 0:03:07).
+
+Individual packets travel different routes through the internet if one route is congested. A Router will choose the 
+most time-effective paths available for each piece of data based on the destination IP address for each Packet 
+(Code.org, 2015, 0:03:34).
+
+Factors that affect data routing are the relationship between companies and political roadblocks, so having multiple 
+path options for sending data ensures the internet's reliability in data delivery (Code.org, 2015, 0:04:01).
+
+
+<br>
+
+#### Domains and DNS
+
+Cloudflare (2019) describes the Domain Name System (DNS) as "the phonebook of the internet". Whenever we need to access 
+information online, we first must identify the source of information, namely the website, to get information.
+
+DNS associates the name of a website, such as `www.randomwebsite.com`, with corresponding IP addresses. 
+Your computer uses DNS to look up Domain Names and get the associated IP Address used to connect your computer to the 
+website on the internet (Code.org, 2015, 0:04:36).
+
+The Domain Name System uses special computers called DNS servers, which are connected in a distributed hierarchy and 
+divided into zones. The divided zones split up the responsibility in terms of better control over DNS components for 
+the major Domains, such as .org, .com, .net, and .edu.
 
 ---
 
@@ -49,13 +112,55 @@ An HTML Element structure includes a "Start tag", a "Tag Name", and an "Attribut
 
 > **Explain** how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
 
-<br>
 
 ### 💲 __Solution__
-```py
-## Q3 solution goes here
 
-```
+<br>
+
+#### Transmission Control Protocol (TCP)
+
+__Transmission Control Protocol__ or __TCP__ manages the sending and receiving all your data as packets. When data 
+packets arrive at your address, TCP checks if all packets have arrived and send back acknowledgements of each packet 
+received. If all packets have been received, TCP signs off on only the complete packet delivery to ensure no data is 
+lost (Code.org, 2015, 00:04:17). 
+
+Actualizare (2022) describes TCP as providing a "reliable stream delivery of data between Internet hosts". 
+In other words, the TCP system ensures that the data is undamaged, not lost or duplicated or out of order during its 
+transit through the network. The TCP system is scalable, and to ensure the quality of client-server communication, 
+TCP follows industry operating characteristics such as basic data transfer, reliability, flow control, multiplexing, 
+connections, and precedence and security (Actualizare 2022).
+
+<br>
+
+#### HTTP and HTTPS
+
+__Hypertext Transfer Protocol__ or __HTTP__ is an application protocol that expresses a formatted webpage to the web 
+browser. We could think of HTTP as a language used to convey information between web browsers and servers.
+The client (web browser) issues some commands to talk to a server (website), and in milliseconds that server starts to 
+talk back to the client in HTTP (Goralski, 2017, p. 671).
+
+The flexibility of the HTTP mechanism for transporting web content allows for the ongoing evolution of client-server 
+communication. Markup languages such as hypertext markup language (HTML), cascading style sheets (CSS), and programming
+languages are easily integrated with the HTTP method. HTTP is, however, an unsecured mechanism of communication between 
+the client and server and requires a more secure connection, such as Hypertext Transfer Protocol Secure or HTTPS, to 
+protect integrity and privacy during client-server data transfer (Goralski, 2017, p. 672). 
+
+<br>
+
+#### Web browsers (Request, Rendering and Developer Tools)
+
+Wikipedia (2022) describes a Web browser as an "application software for accessing websites". Web browsers are built of 
+frontend and backend technologies and work in a coordinated attempt at delivering a seamless web experience to the user.
+Figure # shows the technologies and architecture of a web browser.
+
+<img src="./images/T1A1_workbookQ3_web-browser.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="500">
+
+
+
+
+
+
+
 
 ---
 
