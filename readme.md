@@ -204,16 +204,18 @@ the performance of webpages (Microsoft, 2022).
 <br>
 
 Interpreters and Compilers convert high-level programming languages into a computer's elemental language, known as 
-machine code; however, there are several essential differences between Interpreters and Compilers (TechTarget, 2018).
+machine code; however, there are several essential differences between Interpreters and Compilers (TechTarget, 2018; 
+Programiz, n.d).
 
 The primary function of a __compiler__ is to create an executable program by translating a high-level programming language 
 (source code) into a low-level programming language or machine code. An __interpreter__ can directly execute the 
 instructions written in the high-level programming language without compiling or translating the programming language 
 into machine code (Geeksforgeeks, 2022). Table-1 shows the difference between interpreters and compilers 
-(Programiz, n.d).
+(Smith, 2022) .
 
 <br>
 
+### Table-1: Difference between interpreters and compilers
 <img src="./images/T1A1_workbookQ5-table.jpg" width="1000" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="1200">
 
 
@@ -744,3 +746,33 @@ for i in range(0, len(skills)):
 ```
 
 ---
+
+## References
+
+Viles, C. L. (2022, December 21). Internet and the World Wide Web. Encyclopedia.com. Retrieved December 24, 22, from https://www.encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/internet-and-world-wide-web/
+
+Code.org. (2015, September 10). The Internet: Packets, Routing & Reliability [Video]. YouTube. https://www.youtube.com/watch?v=AYdF7b3nMto
+
+Nimkarde, S. (2018, September 15). What are computer networks and how to actually understand them. Lunaticmonk.dev. Retrieved December 12, 2022, from https://lunaticmonk.dev/what-are-computer-networks/
+
+Goralski, W. (2017). The Illustrated Network (p. 671-672). Elsevier. https://doi.org/10.1016/B978-0-12-811027-0.00002-3.
+
+Actualizare, U. (2022, October 17). Transmission Control Protocol. https://www.ibm.com/docs/ro/aix/7.1?topic=protocols-transmission-control-protocol
+
+Garrett, J. J. (2010). The Elements of User Experience: User-Centered Design for the Web and Beyond. (1st ed.). Pearson Education. https://www.researchgate.net/publication/259823111_The_Elements_of_User_Experience_User-Centered_Design_for_the_Web_and_Beyond
+
+Unadkat, J. (2022, December 8). Understanding the Role of Rendering Engine in Browsers. BrowserStack. https://www.browserstack.com/guide/browser-rendering-engine
+
+Microsoft (2022, July 26). Overview of DevTools. Retrieved December 22, 2022, from https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview
+
+Cloudflare (2019). What is DNS. Cloudflare.com. Retrieved January 2, 2023, from https://www.cloudflare.com/learning/dns/what-is-dns/
+
+TechTarget (2018). What is machine code (machine language). Retrieved January 2, 2023, from https://www.techtarget.com/whatis/definition/machine-code-machine-language
+
+Programiz (n.d.). Interpreter Vs Compiler : Differences Between Interpreter and Compiler. Retrieved January 2, 2023, from https://www.programiz.com/article/difference-compiler-interpreter
+
+Geeksforgeeks (2022, January 17). Compiler vs Interpreter. Geeksforgeeks.org. Retrieved January 2, 2023, from https://www.geeksforgeeks.org/compiler-vs-interpreter-2/
+
+Smith, J. (2022, December 19). Compiler vs Interpreter – Difference Between Them. Guru99. Retrieved January 3, 203, from https://www.guru99.com/difference-compiler-vs-interpreter.html
+
+
