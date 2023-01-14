@@ -214,7 +214,7 @@ into machine code (Geeksforgeeks, 2022). Table-1 shows the difference between in
 
 <br>
 
-<img src="./images/T1A1_workbookQ5-table.jpg" width="1176" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="1465">
+<img src="./images/T1A1_workbookQ5-table.jpg" width="1000" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="1200">
 
 
 
