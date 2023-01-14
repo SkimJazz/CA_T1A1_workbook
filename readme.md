@@ -214,7 +214,14 @@ into machine code (Geeksforgeeks, 2022). Table-1 shows the difference between in
 
 <br>
 
-<img src="./images/T1A1_workbookQ5_table-interpreter-vs-compiler.png" width="800" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="600">
+<img src="./images/T1A1_workbookQ5-table.jpg" width="1176" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="1465">
+
+
+
+
+
+
+
 
 ---
 
