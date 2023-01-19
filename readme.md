@@ -243,8 +243,8 @@ of one person's work (Python Institute, n.d).
 
 Python's presents across the web development industry is vast, and if we realize it or not, we have used a device with 
 Python code in it at some point. From 2016 to 2022, Python's growth in popularity is evident (Figure-3); it also 
-occupies the first position in the TIOBE Programming Community and PYPL PopularitY of Programming Language Indexes for 
-the top ten programming languages from 2021 to 2022 (Python Institute, n.d).
+occupies the first position in the TIOBE Programming Community and PYPL PopularitY of Programming Language Indexes 
+(Figure-4) for the top ten programming languages from 2021 to 2022 (Python Institute, n.d).
 
 One of the significant __benefits__ of Python is that it is almost written in plain English (high-level language). 
 Python uses few keywords with simple structure making it easy to read, suitable for an everyday development task or an 
