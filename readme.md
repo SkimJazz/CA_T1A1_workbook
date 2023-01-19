@@ -233,10 +233,97 @@ into machine code (Geeksforgeeks, 2022). Table-1 shows the difference between in
 <br>
 
 ### 💲 __Solution__
-```py
-## Q6 solution goes here
 
-```
+### __Python__
+
+Python is one of the most popular programming languages in modern software development. 
+Founded in 1991 by Guido Van Rossum and maintained by the Python Software Foundation, Python has quickly become a 
+widely-used and universal high-level programming language. An interesting fact is that Python was initially the concept 
+of one person's work (Python Institute, n.d).
+
+Python's presents across the web development industry is vast, and if we realize it or not, we have used a device with 
+Python code in it at some point. From 2016 to 2022, Python's growth in popularity is evident (Figure-3); it also 
+occupies the first position in the TIOBE Programming Community and PYPL PopularitY of Programming Language Indexes for 
+the top ten programming languages from 2021 to 2022 (Python Institute, n.d).
+
+One of the significant __benefits__ of Python is that it is almost written in plain English (high-level language). 
+Python uses few keywords with simple structure making it easy to read, suitable for an everyday development task or an 
+excellent choice for implementing complex Python-based applications and internet services in the following industries 
+(geeksforgeeks.org, 2022).
+
+-	Data Science
+-	Artificial intelligence
+-	Machine learning
+-	Computer science
+-	Education
+-	Computer vision and image processing
+-	Medicine
+-	Biology
+-	Astronomy
+
+Python's freely available and open-sourced but maintained to a very high industry standard by high level python 
+development community, which means an almost unlimited source of reusable code in an open-sourced environment such as 
+an extensive library database (Python Institute, n.d).
+
+For all its greatness, Python has some __drawbacks__, namely mobile development, database access and the coders' 
+ability to adapt to other programming languages after using Python.
+
+Python is not used much for mobile development as iOS and Android do not support interpreter programming languages. 
+However, several Python GUI frameworks on offer allow mobile device development of Python applications 
+(Srivastava, 2022).
+
+Database access using Python is underdeveloped when interacting with complex outdated computing software or legacy 
+data (geeksforgeeks.org, 2022).
+
+Python programmers find using other programming languages difficult to adapt to due to Python resembling human language
+and the programmers' perception of different programming languages being challenging (Chowdhury, 2022).
+
+<img src="./images/T1A1_workbookQ6_python-1.png" width="840" alt="Python trend line">
+
+Figure 3 - Python trend line from 2016 to 2022
+
+<br>
+
+
+<img src="./images/T1A1_workbookQ6_python-2.png" width="840" alt="Python trend scale">
+
+Figure 4 - Python popularity scale 2021 to 2022
+
+
+<br>
+
+
+### __JavaScript__
+
+A popular programming language for web development is JavaScript. As of 2022, JavaScript dominates the web development 
+industry, and developers agree that JavaScript is trending in the right direction (Raval, 2022).
+
+Brendan Eich created JavaScript in 1995 in collaboration with Netscape Communications, initially designed for 
+Netscape's flagship web browser as a scripting language. These days, JS has been integrated into almost every device 
+containing some operating system, whether on a desktop, mobile device or even a smart TV (LaunchSchool, n.d).
+
+JS is most famous for dynamic websites requiring client and serverside scripting and progressive web app development 
+or websites that behave like a mobile app. Still, at its core, JavaScript makes an HTML page more interactive, and 
+figure 5 shows some use cases for JavaScript (JavaTpoint, n.d).
+
+
+
+<img src="./images/T1A1_workbookQ6_JS.png" width="840" alt="JavaScript use-cases">
+
+Figure 5 - JavaScript use-cases
+
+<br> 
+
+JavaScript is a behemoth programming language with new features added or updated weekly. The benefits of implementing 
+new features can increase speed or cut down on compilation, reduce server load by validating data within the browser, 
+seamless integration with other programming languages, and the implementation of easy to comprehend syntax.
+
+However, rapidly implementing new features and updates has drawbacks, such as Debugging; developers find it challenging 
+to source the issue, as no errors are displayed in the browser. Client-side security; JavaScript code can be misused by 
+impairing the security of transmitted data. Browser compatibility and Rendering; JS code must be tested on various 
+browsers as new features are not supported. Moreover, if there are any errors in the code, the entire website's code 
+can stop rendering; browsers thankfully can manage such mistakes (Rawoof, 2022).
+
 
 ---
 
@@ -749,30 +836,68 @@ for i in range(0, len(skills)):
 
 ## References
 
-Viles, C. L. (2022, December 21). Internet and the World Wide Web. Encyclopedia.com. Retrieved December 24, 22, from https://www.encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/internet-and-world-wide-web/
+Viles, C. L. (2022, December 21). Internet and the World Wide Web. Encyclopedia.com. Retrieved December 24, 22, 
+from https://www.encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/internet-and-world-wide-web/
 
-Code.org. (2015, September 10). The Internet: Packets, Routing & Reliability [Video]. YouTube. https://www.youtube.com/watch?v=AYdF7b3nMto
+Code.org. (2015, September 10). The Internet: Packets, Routing & Reliability [Video]. 
+YouTube. https://www.youtube.com/watch?v=AYdF7b3nMto
 
-Nimkarde, S. (2018, September 15). What are computer networks and how to actually understand them. Lunaticmonk.dev. Retrieved December 12, 2022, from https://lunaticmonk.dev/what-are-computer-networks/
+Nimkarde, S. (2018, September 15). What are computer networks and how to actually understand them. Lunaticmonk.dev. 
+Retrieved December 12, 2022, from https://lunaticmonk.dev/what-are-computer-networks/
 
 Goralski, W. (2017). The Illustrated Network (p. 671-672). Elsevier. https://doi.org/10.1016/B978-0-12-811027-0.00002-3.
 
-Actualizare, U. (2022, October 17). Transmission Control Protocol. https://www.ibm.com/docs/ro/aix/7.1?topic=protocols-transmission-control-protocol
+Actualizare, U. (2022, October 17). Transmission Control Protocol. 
+https://www.ibm.com/docs/ro/aix/7.1?topic=protocols-transmission-control-protocol
 
-Garrett, J. J. (2010). The Elements of User Experience: User-Centered Design for the Web and Beyond. (1st ed.). Pearson Education. https://www.researchgate.net/publication/259823111_The_Elements_of_User_Experience_User-Centered_Design_for_the_Web_and_Beyond
+Garrett, J. J. (2010). The Elements of User Experience: User-Centered Design for the Web and Beyond. (1st ed.). 
+Pearson Education. https://www.researchgate.net/publication/259823111_The_Elements_of_User_Experience_User-Centered_Design_for_the_Web_and_Beyond
 
-Unadkat, J. (2022, December 8). Understanding the Role of Rendering Engine in Browsers. BrowserStack. https://www.browserstack.com/guide/browser-rendering-engine
+Unadkat, J. (2022, December 8). Understanding the Role of Rendering Engine in Browsers. 
+BrowserStack. https://www.browserstack.com/guide/browser-rendering-engine
 
-Microsoft (2022, July 26). Overview of DevTools. Retrieved December 22, 2022, from https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview
+Microsoft (2022, July 26). Overview of DevTools. Retrieved December 22, 2022, 
+from https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview
 
-Cloudflare (2019). What is DNS. Cloudflare.com. Retrieved January 2, 2023, from https://www.cloudflare.com/learning/dns/what-is-dns/
+Cloudflare (2019). What is DNS. Cloudflare.com. Retrieved January 2, 2023, 
+from https://www.cloudflare.com/learning/dns/what-is-dns/
 
-TechTarget (2018). What is machine code (machine language). Retrieved January 2, 2023, from https://www.techtarget.com/whatis/definition/machine-code-machine-language
+TechTarget (2018). What is machine code (machine language). Retrieved January 2, 2023, 
+from https://www.techtarget.com/whatis/definition/machine-code-machine-language
 
-Programiz (n.d.). Interpreter Vs Compiler : Differences Between Interpreter and Compiler. Retrieved January 2, 2023, from https://www.programiz.com/article/difference-compiler-interpreter
+Programiz (n.d.). Interpreter Vs Compiler : Differences Between Interpreter and Compiler. Retrieved January 2, 2023, 
+from https://www.programiz.com/article/difference-compiler-interpreter
 
-Geeksforgeeks (2022, January 17). Compiler vs Interpreter. Geeksforgeeks.org. Retrieved January 2, 2023, from https://www.geeksforgeeks.org/compiler-vs-interpreter-2/
+Geeksforgeeks (2022, January 17). Compiler vs Interpreter. Geeksforgeeks.org. Retrieved January 2, 2023, 
+from https://www.geeksforgeeks.org/compiler-vs-interpreter-2/
 
-Smith, J. (2022, December 19). Compiler vs Interpreter – Difference Between Them. Guru99. Retrieved January 3, 203, from https://www.guru99.com/difference-compiler-vs-interpreter.html
+Smith, J. (2022, December 19). Compiler vs Interpreter – Difference Between Them. Guru99. Retrieved January 3, 203, 
+from https://www.guru99.com/difference-compiler-vs-interpreter.html
 
+Python Institute (n.d.). Python – the language of today and tomorrow. Pythoninstitute.org. Retrieved January 5, 2023, 
+from https://pythoninstitute.org/about-python
+
+geeksforgeeks.org (2022, August 24). Python Language advantages and applications. Retrieved January 5, 2023, 
+from https://www.geeksforgeeks.org/python-language-advantages-applications/
+
+Srivastava , V. (2022, April 28). Python App Development: Is Python Suitable for Mobile Applications? Distantjob.com. 
+Retrieved January 5, 2023, from https://distantjob.com/blog/python-app-development/
+
+Chowdhury, M. (2022, April 8). Why Python is not the Right Language for your massive Project? Analyticsinsight.net. 
+Retrieved January 5, 2023, from https://www.analyticsinsight.net/why-python-is-not-the-right-language-for-your-massive-project/
+
+Raval, N. (2022, September 20). Top 10 JavaScript Usage Statistics to Watch Out for in 2022. Radixweb.com. 
+Retrieved January 6, 2023, from https://radixweb.com/blog/top-javascript-usage-statistics#webdev
+
+LaunchSchool (n.d.). A Brief JavaScript History. Launchschool.com. Retrieved January 6, 2023, 
+from https://launchschool.com/books/javascript/read/introduction
+
+JavaTpoint (n.d.). What are the uses of JavaScript? Javatpoint.com. Retrieved January 6, 2023, 
+from https://www.javatpoint.com/what-are-the-uses-of-javascript
+
+MDN Web Docs (2022, December 14). JavaScript. Retrieved January 6, 2023, 
+from https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+Rawoof, A. (2022, August 26). Advantages and Disadvantages of JavaScript. Tutorialspoint.com. Retrieved January 6, 2023, 
+from https://www.tutorialspoint.com/advantages-and-disadvantages-of-javascript
 
