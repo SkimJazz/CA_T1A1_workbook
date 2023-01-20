@@ -507,8 +507,54 @@ else:
 <br>
 
 ### 💲 __Solution__
-```sh
-## Q9 solution goes here
+
+### Type Conversion vs Type Coercion
+
+__Type conversion__ is a term that describes the manual process of converting some object from one data type to another
+using built-in functions. Type Conversion is also known as *Type Casting* or *Explicit Type Conversion*. On the other hand,
+__Type Coercion__ is the automatic process of converting values, also called *Implicit Type Conversion* (Mathew, 2021).
+
+Python has various built-in functions to support type conversion, such as ```int()```, ```float()```, ```str()``` Etc. 
+However, Python does not have type coercion. Python will ask different objects, such as ```int()``` and ```float()```, 
+to add themselves together on the bases that one of the objects knows how to add itself to the other by using the
+```__radd__``` method on one of the objects when used with the ```+``` operator (Hunner, n.d). 
+
+<br>
+
+**Example-1: Numerical Types**
+
+Adding ```int()``` and ```float()``` will result in a ```float()```
+
+```python
+x = 2   #int
+
+y = 3.5 #float()
+x + y
+
+print(type(x + y))
+<class 'float'>
+# output = 5.5
+```
+Therefore Python did not coerce the ```int()``` value into a ```float()```.
+
+<br>
+
+**Example-2: Python Objects**
+
+Adding ```str()``` and an ```int()``` in Python will throw back a ```TypeError```. We must manually (type conversion) 
+convert ```int()``` to ```str()```.
+
+```python
+name = "John"
+x = 2
+name + x
+
+# output
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+
+
 
 ```
 
@@ -901,3 +947,8 @@ from https://developer.mozilla.org/en-US/docs/Web/JavaScript
 Rawoof, A. (2022, August 26). Advantages and Disadvantages of JavaScript. Tutorialspoint.com. Retrieved January 6, 2023, 
 from https://www.tutorialspoint.com/advantages-and-disadvantages-of-javascript
 
+Mathew, S. T. (2021, April 19). Python Fundamentals for Everybody — Type Conversion vs Type Coercion. Medium. Retrieved 
+January 6, 2023, from https://medium.com/analytics-vidhya/python-fundamentals-for-everybody-type-conversion-vs-type-coercion-34234e99c9c4
+
+Hunner, T. (n.d.). Python doesn't have type coercion. Pythonmorsels.com. Retrieved January 6, 2023, 
+from https://www.pythonmorsels.com/type-coercion/
