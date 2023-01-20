@@ -803,24 +803,26 @@ arr[i + 1] = j
 ### 💲 __Solution__
 
 ```py
-raining = True
-temp = 15
+# Using pseudocode
 
-def weather_forecast()
+# raining = True
+# temp = 15
 
-	if raining and temp < 15 degrees
-		print("It’s wet and cold”)
+# def weather_forecast()
+
+	# if raining and temp < 15 degrees
+		# print("It’s wet and cold”)
 	
-	elif temp < 15 and != raining
-		print("It’s not raining but cold”)
+	# elif temp < 15 and != raining
+		# print("It’s not raining but cold”)
 	
-	elif temp >= 15 and != raining
-		print("It’s warm but not raining”)
+	# elif temp >= 15 and != raining
+		# print("It’s warm but not raining”)
 		
-	else 
-	    print("It’s warm and raining”)
+	# else 
+	    # print("It’s warm and raining”)
 
-weather_forecast()
+# weather_forecast()
 ```
 
 ---
