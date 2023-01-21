@@ -714,10 +714,31 @@ print(queensland_cities)
  - Write a short explanation of why you would use the classes you have identified
 
 ### 💲 __Solution__
-```py
-## 11 solution goes here
 
-```
+Using the following classes:
+
+1.	`Food` class: Represent the food items available at the restaurant. It would have properties such as name, price, 
+ingredients, and methods to display the food item's details.
+
+2.	`Order` class: This class would represent an order placed by a customer. It would have properties such as the 
+customer's name, ordered food items, and the total cost. It would also have methods to add and remove food items from 
+the order and calculate its total cost.
+
+3.	`Customer` class: This class would represent a customer visiting the restaurant. It would have properties such as 
+the customer's name and contact information and have methods to place an order and view their order history.
+
+4.	`Restaurant` class: This class represents the restaurant itself, and it would have properties such as a menu of 
+food items and a list of orders. It also has methods to display the menu, take orders and handle payments.
+ 
+The `Food` class allows for easy management of the menu, the `Order` class allows for easy management of customer orders, 
+the `Customer` class allows for easy management of customer information, and the `Restaurant` class ties all these together 
+and handles the app's overall functionality.
+
+Following the principle of encapsulation, the internal details of a class are hidden from other classes, and objects 
+can only interact with each other through their methods and properties, making it easy to change or add new features 
+without affecting the other parts of the application. These classes provide a logical and organized structure and can 
+be designed in a way that they are independent, reusable, and easy to understand and maintain.
+
 
 ---
 
