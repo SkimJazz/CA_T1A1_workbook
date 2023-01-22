@@ -188,10 +188,132 @@ the performance of webpages (Microsoft, 2022).
 <br>
 
 ### 💲 __Solution__
+
+The following three data structures can be used in various ways to store, retrieve and manipulate data in Python.
+	
+1. __Lists:__ A collection of items that are ordered and changeable. They are written with square brackets [] and can 
+contain items of different types.
+2. __Tuples:__ A collection of items that are ordered and unchangeable. They are written with round brackets () and can 
+contain items of different types.
+3. __Dictionaries:__ A collection of items that are unordered, changeable and indexed. They are written with curly braces {} 
+and contain keys and values.
+
+### Python List
+
 ```py
-## Q4 solution goes here
+animals = ["wolf", "eagle", "penguin"]
+```
+
+In the above example, the variable `animals` is assigned a list of strings representing different species of animals. 
+`Lists` in Python are ordered and changeable, meaning that the items in a list can be accessed by their index 
+(i.e. their position in the list) and that the items in the list can be modified by adding or removing items from the 
+list. 
+
+The following are some operations that can be performed on a Python `list`. 
+
+```py
+# Access the first item in the list
+print(animals[0])   # Output: "wolf"
+
+# Modify the second item in the list
+animals[1] = "dragon"
+print(animals)      # Output: ["wolf", "dragon", "penguin"]
+
+# Add an item to the end of the list
+animals.append("hyena")
+print(animals)      # Output: ["wolf", "dragon", "penguin", "hyena"]
+
+# Search and remove an item from the list
+animals.remove("penguin")
+print(animals)      # Output: ["wolf", "dragon", "hyena"]
+```
+
+### Python Tuples
+
+In the following example, the variable "character" is assigned a `tuple` containing four items: a `string` representing 
+the character's first name, a `string` representing the character's last name, an `integer` representing the character's 
+age, and a `string` representing the movie the character is in. Tuples in Python are ordered and unchangeable, meaning 
+that the items in a tuple are accessed by their index (i.e. their position in the tuple), but the items in the tuple 
+cannot be modified.
+
+
+```py
+character = ("John", "McClane", 42, "Diehard")
+```
+
+
+```python
+# Access the first item in the tuple
+print(character[0])   # Output: "John"
+
+# Access the last item in the tuple
+print(character[-1])  # Output: "Diehard"
+
+# Modifying an item in the tuple will throw back a TypeError
+# as once a tuple is declared, you cant add or change any values in it
+character[1] = "Gruber"  # TypeError: 'tuple' object does not support item assignment
+
+# Tuple unpacking
+fname, lname, age, movie = character
+print(movie)  # Diehard
+```
+
+<br>
+
+### Python Dictionary
+
+In Python, a dictionary is a collection of Ordered (Python 3.7 onwards), Mutable, and indexed items. Each item in a 
+dictionary has a “key-value” pair. Dictionaries are written using curly braces {} with comma-separated items. 
+Dictionaries are helpful in situations where you want to store and retrieve data by using keys.
+
+In the following example, the variable “character” is assigned to a dictionary containing four key-value pairs. 
+The left side represents keys (name, age, address, phone), and the right represents the values (John McClane, 
+42, Nakatmoi Plaza, 1800 101 101), e.g. “key” : “value”
+
+```python
+character = {
+    "name": "John McClane",
+    "age": 42,
+    "address": "Nakatomi Plaza",
+    "phone": "1800 101 101"
+}
+
+# Accessing an element using Key name in []
+print(character["name"]) 
+# Output John McClane
+
+print(character["age"])   
+# Output 42
+
+
+
+# Adding items to the dictionary
+character["gender"] = "male"
+
+# print updated dictionary
+print(character)
+# output {'name': 'John McClane', 'age': 42, 'address': 'Nakatomi Plaza', 'phone': '1800 101 101', 'gender': 'male'}
+
+
+
+# Updating an item in the dictionary
+character["age"] = 45
+
+# print updated dictionary
+print(character)
+# Output {'name': 'John McClane', 'age': 45, 'address': 'Nakatomi Plaza', 'phone': '1800 101 101', 'gender': 'male'}
+
+
+
+# Deleting an item from the dictionary
+del character["phone"]
+
+# print updated dictionary
+print(character)
+# Output {'name': 'John McClane', 'age': 45, 'address': 'Nakatomi Plaza', 'gender': 'male'}
 
 ```
+
 
 ---
 
@@ -812,7 +934,16 @@ arr[i + 1] = j
 ### 💲 __Solution__
 
 ```py
-## 14 solution goes here
+1. Start.
+2. Initialize a variable 'primeNum' as an empty list.
+3. Use a for loop to iterate through the range of numbers between 1 and 100 (inclusive).
+4. For each number, set a variable 'isPrime' to 'True'.
+5. Use a nested for loop to iterate through the range of numbers between 2 and the current number (exclusive).
+6. Within the nested loop, check if the current number is divisible by any number in the range. If it is, set 'isPrime' to 'False' and break out of loop.
+7. After nested loop, check value of 'isPrime'. If 'True', append current number to the 'primeNum' list.
+8. After outer loop, print 'primeNum' list.
+9. End.
+
 
 ```
 
@@ -823,29 +954,48 @@ arr[i + 1] = j
 
 ### 💲 __Solution__
 
+__Pseudocode__
+
 ```py
-# Using pseudocode
-
-# raining = True
-# temp = 15
-
-# def weather_forecast()
-
-	# if raining and temp < 15 degrees
-		# print("It’s wet and cold”)
-	
-	# elif temp < 15 and != raining
-		# print("It’s not raining but cold”)
-	
-	# elif temp >= 15 and != raining
-		# print("It’s warm but not raining”)
-		
-	# else 
-	    # print("It’s warm and raining”)
-
-# weather_forecast()
+# if raining is true and temp is less than 15:
+    # print "It's wet and cold"
+    
+# else if raining is false and temp is less than 15:
+    # print "It's not raining but cold"
+    
+# else if raining is false and temp is greater than or equal to 15:
+    # print "It's warm but not raining"
+    
+# else:
+    # print "It's warm and raining"
 ```
 
+__Python Code__
+
+```py
+raining = True
+#raining = False
+
+#temp = 16
+temp = 15
+#temp = 14
+
+def weather_forecast():
+    
+    if raining and temp < 15:
+        print("It's wet and cold")
+        
+    elif not raining and temp < 15:
+        print("It's not raining but cold")
+        
+    elif not raining and temp >= 15:
+        print("It's warm but not raining")
+        
+    else:
+        print("It's warm and raining")
+
+weather_forecast()
+```
 ---
 
 ## Q16:	ACME Corporation are hiring a new junior developer, as part of their hiring criteria they've created a "coding skill score" based on the specific competencies they require for this role; the more important the skill is for ACME corp, the more points it contributes to the "coding skill score" The skills are weighted as follows:
