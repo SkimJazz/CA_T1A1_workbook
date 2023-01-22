@@ -195,8 +195,10 @@ The following three data structures can be used in various ways to store, retrie
 contain items of different types.
 2. __Tuples:__ A collection of items that are ordered and unchangeable. They are written with round brackets () and can 
 contain items of different types.
-3. __Dictionaries:__ A collection of items that are unordered, changeable and indexed. They are written with curly braces {} 
-and contain keys and values.
+3. __Dictionaries:__ A collection of items that are ordered (Python 3.7 onwards), Mutable and indexed items. 
+4. They are written with curly braces {} and contain key-value pairs.
+
+<br>
 
 ### Python List
 
@@ -227,6 +229,8 @@ print(animals)      # Output: ["wolf", "dragon", "penguin", "hyena"]
 animals.remove("penguin")
 print(animals)      # Output: ["wolf", "dragon", "hyena"]
 ```
+
+<br>
 
 ### Python Tuples
 
