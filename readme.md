@@ -515,14 +515,21 @@ In Python Control Flow can be divided into the three following categories show i
 
 <br>
 
+<br>
 
-### Conditional Statements
+## Conditional Statements
+
+1. `if`
+2. `if-else`
+3. `if-elif-else`
+4. Nested `if-else`
+
 
 The following examples show a range of Conditional Statements using a 'Movie World Batman Roller Coaster Ride' and an BMI calculator.
 
 <br>
 
-### __```if``` statement__
+### __```if``` statement:__
 
 <br>
 
@@ -571,7 +578,7 @@ else:
 
 <br>
 
-### __```if-elif-else``` statement__
+### __```if-elif-else``` statements__
 
 <br>
 
@@ -616,7 +623,9 @@ else:
     print(f"Your BMI is {bmi}, you are super fat!")
 ```
 
-### Nested if-else statement
+<br>
+
+### Nested `if-else` statements:
 
 ```py
 
@@ -642,6 +651,152 @@ if height >= 120:
 else:
     print("Sorry bud your too short !")
 ```
+
+<br>
+
+## Transfer Statements
+
+
+The `break`, `continue`, and `pass` statements are all considered Transfer Statements in Python, as they transfer 
+control flow out of the current block of code, altering the program’s execution. Transfer statements are generally 
+used in python loop control to either `break` to terminate the current loop, `continue` to skip an iteration in a loop 
+and proceed to the next iteration or ignoring a condition `pass’ and run the program normally (Hule, 2021).
+
+<br>
+
+1. `break`
+2. `continue`
+3. `pass`
+
+<br>
+
+### Break:
+
+`break` statements are used for exiting a loop early before the loop condition is met. Upon this, the loop is 
+immediately terminated when a break statement is encountered, and the program will resume control after the loop 
+(Hule, 2021).
+
+For example, if a `for` loop is iterating through a list of items and encounters a `break` statement, the loop will 
+terminate, and the program will continue executing the following line of code after the loop. The `break` statement 
+is typically used with an `if` statement to check a condition and exit the loop if the condition is met (Hule, 2021).
+
+The following is an example of the `break` statement in a `for` loop 
+
+
+```python
+# In this example, the loop iterate’s from 0 to 9, but when the value of `i` becomes `5`, the `break` 
+# statement will be executed upon which the loop will terminate.
+
+for i in range(10):
+    
+    # condition to break outer loop
+    if i == 5:
+        break
+        
+    print(i)
+# output: 0 1 2 3 4
+```
+
+<br>
+
+
+### Continue:
+
+`continue` statements are used within a loop (for or while) to skip the current iteration and move on to the following 
+line of code without terminating the loop (Hule, 2021).
+
+The following example shows the loop iterates from 0 t0 9, but for every even number, the `continue` statement will be 
+executed, skipping over the current iteration.
+
+```python
+for i in range(10):
+    
+    # condition to skip current iteration
+    # Dont print even numbers
+    if i % 2 == 0:  
+        continue
+        
+    print(i)
+# output: 1 3 5 7 9
+```
+
+<br>
+
+### Pass:
+
+A `pass` statement is defined as a null operation; in other words, it does not do anything! However, they are helpful 
+for testing a new section of code without implementing the entire logic.
+
+A `pass` statement is used as a placeholder when a statement requires a syntactically empty block, but no code needs to be executed. 
+It is often used as a placeholder in control structures, such as `if` and `while` statements, where the statement's 
+body is not yet implemented (Hule, 2021).
+
+
+```python
+x = 1
+x = 0
+
+if x > 0:
+    
+    # the body of the if statement is not yet implemented
+    pass  
+
+else:
+    print(x)
+# if x = 1 output: null
+# if x = 0 output: 0
+```
+
+## iterative statements
+
+An iterative statement lets us repeatedly execute a code block providing the condition is `True`.
+In Python, the `for` loop method is used to iterate over a sequence of elements such as a `list` or `string`, and 
+the `while` loop method can execute a code block repeatedly.
+
+<br>
+
+1. `for`
+2. `while`
+
+<br>
+
+### for loop:
+
+In the following example the `for` loop iterates over the list of numbers. For each iteration it will assign the 
+current element to the variable `num` which is then printed out.
+
+```python
+numbers = [1, 2, 3, 4, 5]
+
+# iterate over each element in the list
+for num in numbers:
+    
+    print(num)
+# output: 1 2 3 4 5
+```
+<br>
+
+### while loop:
+
+In this example, the loop will iterate as long as the condition of `count <= 5` is `True`. The variable `count` is 
+initialized with the value 1 before starting the loop. At each iteration, the value of `count` is increased by 1 using 
+the `count += 1` statement.
+
+
+```python
+# Using a while loop to print numbers from 1 to 5
+count = 1
+
+# run loop untill `count` is less than or equal to 5
+while count <= 5:
+    
+    print(count)
+
+    count += 1
+# output: 1 2 3 4 5
+```
+
+
 
 ---
 
@@ -1146,3 +1301,6 @@ January 6, 2023, from https://medium.com/analytics-vidhya/python-fundamentals-fo
 
 Hunner, T. (n.d.). Python doesn't have type coercion. Pythonmorsels.com. Retrieved January 6, 2023, 
 from https://www.pythonmorsels.com/type-coercion/
+
+Hule, V. (2021, June 6). Python Break, Continue, and Pass. Pynative.com. Retrieved December 20, 2022, 
+from https://pynative.com/python-break-continue-pass/
