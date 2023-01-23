@@ -1063,7 +1063,7 @@ fahrenheit = (celsius * 9/5)+32; # int
 print(f"The result is: {fahrenheit}.")
 
 # input = 30 degrees
-# output = 86.0 fahrenheit
+# output = The result is: 86.0
 ```
 
 ---
