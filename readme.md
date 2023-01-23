@@ -660,7 +660,7 @@ else:
 The `break`, `continue`, and `pass` statements are all considered Transfer Statements in Python, as they transfer 
 control flow out of the current block of code, altering the program’s execution. Transfer statements are generally 
 used in python loop control to either `break` to terminate the current loop, `continue` to skip an iteration in a loop 
-and proceed to the next iteration or ignoring a condition `pass’ and run the program normally (Hule, 2021).
+and proceed to the next iteration or ignoring a condition `pass` and run the program normally (Hule, 2021).
 
 <br>
 
