@@ -4,10 +4,9 @@
 
 ## Q1: **Identify** and **explain** common and important components and concepts of web development markup languages.
 
+<br>
 
-
-### 💲 __Solution__
-
+#### 💲 __Solution__
 
 The first thing you see when visiting a particular website is a web page or document. These web pages contain markup 
 languages such as Hypertext Markup Language (HTML). A website designer or front-end developer will use HTML to structure
@@ -35,12 +34,12 @@ Figure-1 Anatomy of an HTML Element
 
 > **Explain** how each technology has contributed to the development of the internet.
 
-
-### 💲 __Solution__
-
 <br>
 
-#### Packets
+#### 💲 __Solution__
+
+
+### Packets:
 
 The information transferred from one computer to another does not have to follow a fixed path, and the way for data 
 transfer can change during a computer-to-computer interaction. Information goes from one computer to another in a 
@@ -55,7 +54,7 @@ the device that receives them (Nimkarde, 2018).
 
 <br>
 
-#### IP Addresses (IPv4 and IPv6)
+### IP Addresses (IPv4 and IPv6):
 
 One of the most essential Protocols used in internet communication is the Internet Protocol or IP. An IP is a set of 
 rules and standards used to communicate between machines, such as computers (Viles, 2022). Every computer is assigned a 
@@ -77,7 +76,7 @@ unique IP addresses for the increase of connected devices and the ongoing develo
 
 <br>
 
-#### Routers and Routing
+### Routers and Routing:
 
 Routers are special computers that act like internet traffic managers, keeping the packets moving through the networks 
 smoothly by forwarding data packets between computer networks. As part of the Internet Protocol, each Router keeps 
@@ -94,7 +93,7 @@ path options for sending data ensures the internet's reliability in data deliver
 
 <br>
 
-#### Domains and DNS
+### Domains and DNS:
 
 Cloudflare (2019) describes the Domain Name System (DNS) as "the phonebook of the internet". Whenever we need to access 
 information online, we first must identify the source of information, namely the website, to get information.
@@ -109,6 +108,7 @@ the major Domains, such as .org, .com, .net, and .edu.
 
 ---
 
+
 ## Q3:	**Define** the features of the following technologies that are essential in terms of the development of the internet:
  - TCP
  - HTTP and HTTPS
@@ -116,12 +116,13 @@ the major Domains, such as .org, .com, .net, and .edu.
 
 > **Explain** how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
 
-
-### 💲 __Solution__
-
 <br>
 
-#### Transmission Control Protocol (TCP)
+#### 💲 __Solution__
+
+
+
+### Transmission Control Protocol (TCP):
 
 __Transmission Control Protocol__ or __TCP__ manages the sending and receiving all your data as packets. When data 
 packets arrive at your address, TCP checks if all packets have arrived and send back acknowledgements of each packet 
@@ -136,7 +137,7 @@ connections, and precedence and security (Actualizare 2022).
 
 <br>
 
-#### HTTP and HTTPS
+### HTTP and HTTPS:
 
 __Hypertext Transfer Protocol__ or __HTTP__ is an application protocol that expresses a formatted webpage to the web 
 browser. We could think of HTTP as a language used to convey information between web browsers and servers.
@@ -151,14 +152,18 @@ protect integrity and privacy during client-server data transfer (Goralski, 2017
 
 <br>
 
-#### Web browsers (Request, Rendering and Developer Tools)
+### Web browsers (Request, Rendering and Developer Tools):
 
 Wikipedia (2022) describes a Web browser as an "application software for accessing websites". Web browsers are built of 
 frontend and backend technologies and work in a coordinated attempt at delivering a seamless web experience to the user.
 Figure 2 shows the technologies and architecture of a web browser.
 
+<br>
+
 <img src="./images/T1A1_workbookQ3_web-browser.png" width="800" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="500">
+
 Figure-2 Web browser architecture
+
 
 <br>
 
@@ -195,12 +200,12 @@ The following three data structures can be used in various ways to store, retrie
 contain items of different types.
 2. __Tuples:__ A collection of items that are ordered and unchangeable. They are written with round brackets () and can 
 contain items of different types.
-3. __Dictionaries:__ A collection of items that are ordered (Python 3.7 onwards), Mutable and indexed items. 
-4. They are written with curly braces {} and contain key-value pairs.
+3. __Dictionaries:__ A collection of items that are ordered (Python 3.7 onwards), Mutable and indexed items. They are 
+written with curly braces {} and contain key-value pairs.
 
 <br>
 
-### Python List
+### Python List:
 
 ```py
 animals = ["wolf", "eagle", "penguin"]
@@ -215,26 +220,30 @@ The following are some operations that can be performed on a Python `list`.
 
 ```py
 # Access the first item in the list
-print(animals[0])   # Output: "wolf"
+print(animals[0])   
+# output: wolf
 
 # Modify the second item in the list
 animals[1] = "dragon"
-print(animals)      # Output: ["wolf", "dragon", "penguin"]
+print(animals)      
+# output: ["wolf", "dragon", "penguin"]
 
 # Add an item to the end of the list
 animals.append("hyena")
-print(animals)      # Output: ["wolf", "dragon", "penguin", "hyena"]
+print(animals)      
+# output: ["wolf", "dragon", "penguin", "hyena"]
 
 # Search and remove an item from the list
 animals.remove("penguin")
-print(animals)      # Output: ["wolf", "dragon", "hyena"]
+print(animals)     
+# output: ["wolf", "dragon", "hyena"]
 ```
 
 <br>
 
-### Python Tuples
+### Python Tuples:
 
-In the following example, the variable "character" is assigned a `tuple` containing four items: a `string` representing 
+In the following example, the variable `character` is assigned a `tuple` containing four items: a `string` representing 
 the character's first name, a `string` representing the character's last name, an `integer` representing the character's 
 age, and a `string` representing the movie the character is in. Tuples in Python are ordered and unchangeable, meaning 
 that the items in a tuple are accessed by their index (i.e. their position in the tuple), but the items in the tuple 
@@ -248,31 +257,35 @@ character = ("John", "McClane", 42, "Diehard")
 
 ```python
 # Access the first item in the tuple
-print(character[0])   # Output: "John"
+print(character[0])   
+# output: John
 
 # Access the last item in the tuple
-print(character[-1])  # Output: "Diehard"
+print(character[-1])  
+# output: Diehard
 
-# Modifying an item in the tuple will throw back a TypeError
-# as once a tuple is declared, you cant add or change any values in it
-character[1] = "Gruber"  # TypeError: 'tuple' object does not support item assignment
+# Modifying an item in the tuple will throw back a TypeError as once a 
+# tuple is declared, you cant add or change any values in it
+character[1] = "Gruber"  
+# output: TypeError: 'tuple' object does not support item assignment
 
 # Tuple unpacking
 fname, lname, age, movie = character
-print(movie)  # Diehard
+print(movie)  
+# output: Diehard
 ```
 
 <br>
 
-### Python Dictionary
+### Python Dictionary:
 
-In Python, a dictionary is a collection of Ordered (Python 3.7 onwards), Mutable, and indexed items. Each item in a 
-dictionary has a “key-value” pair. Dictionaries are written using curly braces {} with comma-separated items. 
+In Python, a `dictionary` is a collection of Ordered (Python 3.7 onwards), Mutable, and indexed items. Each item in a 
+dictionary has a `key-value` pair. Dictionaries are written using curly braces `{}` with comma-separated items. 
 Dictionaries are helpful in situations where you want to store and retrieve data by using keys.
 
-In the following example, the variable “character” is assigned to a dictionary containing four key-value pairs. 
-The left side represents keys (name, age, address, phone), and the right represents the values (John McClane, 
-42, Nakatmoi Plaza, 1800 101 101), e.g. “key” : “value”
+In the following example, the variable `character` is assigned to a `dictionary` containing four key-value pairs. 
+The left side represents keys `name`, `age`, `address`, `phone`, and the right represents the values `John McClane`, 
+`42`, `Nakatmoi Plaza`, `1800 101 101`, e.g. `key : value`
 
 ```python
 character = {
@@ -284,10 +297,10 @@ character = {
 
 # Accessing an element using Key name in []
 print(character["name"]) 
-# Output John McClane
+# output: John McClane
 
 print(character["age"])   
-# Output 42
+# output: 42
 
 
 
@@ -296,7 +309,7 @@ character["gender"] = "male"
 
 # print updated dictionary
 print(character)
-# output {'name': 'John McClane', 'age': 42, 'address': 'Nakatomi Plaza', 'phone': '1800 101 101', 'gender': 'male'}
+# output: {'name': 'John McClane', 'age': 42, 'address': 'Nakatomi Plaza', 'phone': '1800 101 101', 'gender': 'male'}
 
 
 
@@ -305,7 +318,7 @@ character["age"] = 45
 
 # print updated dictionary
 print(character)
-# Output {'name': 'John McClane', 'age': 45, 'address': 'Nakatomi Plaza', 'phone': '1800 101 101', 'gender': 'male'}
+# output: {'name': 'John McClane', 'age': 45, 'address': 'Nakatomi Plaza', 'phone': '1800 101 101', 'gender': 'male'}
 
 
 
@@ -314,7 +327,7 @@ del character["phone"]
 
 # print updated dictionary
 print(character)
-# Output {'name': 'John McClane', 'age': 45, 'address': 'Nakatomi Plaza', 'gender': 'male'}
+# output: {'name': 'John McClane', 'age': 45, 'address': 'Nakatomi Plaza', 'gender': 'male'}
 
 ```
 
@@ -324,10 +337,11 @@ print(character)
 
 ## Q5:	**Describe** the features of interpreters and compilers and how they are different.
 
-
-### 💲 __Solution__
-
 <br>
+
+#### 💲 __Solution__
+
+
 
 Interpreters and Compilers convert high-level programming languages into a computer's elemental language, known as 
 machine code; however, there are several essential differences between Interpreters and Compilers (TechTarget, 2018; 
@@ -341,7 +355,7 @@ into machine code (Geeksforgeeks, 2022). Table-1 shows the difference between in
 
 <br>
 
-### Table-1: Difference between interpreters and compilers
+#### Table-1: Difference between interpreters and compilers
 <img src="./images/T1A1_workbookQ5-table.jpg" width="1000" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="1200">
 
 
@@ -358,9 +372,9 @@ into machine code (Geeksforgeeks, 2022). Table-1 shows the difference between in
 
 <br>
 
-### 💲 __Solution__
+#### 💲 __Solution__
 
-### __Python__
+### Python:
 
 Python is one of the most popular programming languages in modern software development. 
 Founded in 1991 by Guido Van Rossum and maintained by the Python Software Foundation, Python has quickly become a 
@@ -404,6 +418,8 @@ data (geeksforgeeks.org, 2022).
 Python programmers find using other programming languages difficult to adapt to due to Python resembling human language
 and the programmers' perception of different programming languages being challenging (Chowdhury, 2022).
 
+<br>
+
 <img src="./images/T1A1_workbookQ6_python-1.png" width="840" alt="Python trend line">
 
 Figure 3 - Python trend line from 2016 to 2022
@@ -419,7 +435,7 @@ Figure 4 - Python popularity scale 2021 to 2022
 <br>
 
 
-### __JavaScript__
+### JavaScript:
 
 A popular programming language for web development is JavaScript. As of 2022, JavaScript dominates the web development 
 industry, and developers agree that JavaScript is trending in the right direction (Raval, 2022).
@@ -432,7 +448,7 @@ JS is most famous for dynamic websites requiring client and serverside scripting
 or websites that behave like a mobile app. Still, at its core, JavaScript makes an HTML page more interactive, and 
 figure 5 shows some use cases for JavaScript (JavaTpoint, n.d).
 
-
+<br>
 
 <img src="./images/T1A1_workbookQ6_JS.png" width="840" alt="JavaScript use-cases">
 
@@ -473,7 +489,7 @@ List of topics containing ethical issues:
 
 <br>
 
-### 💲 __Solution__
+#### 💲 __Solution__
 ```py
 ## Q7 solution goes here
 
@@ -481,25 +497,26 @@ List of topics containing ethical issues:
 
 ---
 
-###  *__Following questions are Python related__*
-
----
 
 ## Q8:	Explain control flow, using examples from the Python programming language
 
 <br>
+
+
+
+#### 💲 __Solution__
+
+
 Control Flow is a term used in Python to describe the order in which a Python block of code will be executed.
 
 In Python Control Flow can be divided into the three following categories show in the flow chart below
 
+<img src="./images/T1A1_workbookQ8_control-flow.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python">
+
 <br>
 
 
-<img src="./images/T1A1_workbookQ8_control-flow.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python">
-
-### 💲 __Solution__
-
-### __Conditional Statements__
+### Conditional Statements
 
 The following examples show a range of Conditional Statements using a 'Movie World Batman Roller Coaster Ride' and an BMI calculator.
 
