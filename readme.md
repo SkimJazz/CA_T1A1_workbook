@@ -490,10 +490,41 @@ List of topics containing ethical issues:
 <br>
 
 #### 💲 __Solution__
-```py
-## Q7 solution goes here
 
-```
+### Ethical issue-1: Access to a user's personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs).
+
+IT professionals have a significant ethical responsibility when accessing a user's personal information, including 
+medical, family, financial, and personal attributes such as sexuality, religion, or beliefs.
+
+The foremost responsibility of an IT professional is to protect the privacy and security of users' personal information.
+They implement and maintain appropriate security measures to prevent unauthorized access or data breaches. In addition, 
+IT professionals should only access or disclose personal information when necessary for their job duties and with the
+appropriate authorization (Guide to securing personal information OAIC, 2018).
+
+Transparency about how personal information is collected, stored, and used is a significant responsibility for IT 
+professionals. They must provide users with clear and accurate privacy notices and obtain their informed consent when 
+necessary (Open and transparent management of personal information OAIC, 2019).
+
+Moreover, an IT professional should respect the user's autonomy and right to control personal information. 
+They should not share, use or disclose personal information without the user's consent unless required by law or 
+protect public safety (Protecting customers' personal information OAIC, 2015).
+
+IT professionals should be aware of relevant laws and regulations protecting and safeguarding personal information. 
+In Australia, the principal piece of Australian legislation safeguarding the handling of an individual's personal 
+information is the Privacy Act 1988.
+
+The legislation outlines the laws in the public and private sectors for collecting, storing, and disclosing an 
+individual's personal information. This helps IT professionals act ethically by providing clear guidelines on handling 
+and protecting personal data. Finally, ongoing education and training for an IT professional are vital in upholding 
+ethical standards and responsibilities (Attorney-General's Department, n.d).
+
+
+<br>
+
+### Ethical issue 2: Intellectual Property, Copyright, and Acknowledgement
+
+IT professionals are responsible for respecting and upholding intellectual property rights, including copyright laws. 
+
 
 ---
 
@@ -1053,12 +1084,18 @@ print(f"The result is: {fahrenheit}.")
 In Python, all inputs are Strings regardless of weather the user inputs a number
 or a letter.
 
-```py
-# Include int function to change input String to Interger 
-celsius = int(input()) # Str
+To fix this error, you need to convert the input string to a number
 
-# Missing ( ; ) at end of statement
-fahrenheit = (celsius * 9/5)+32; # int
+```py
+# Include int() or float() function to change input String to Interger or float
+
+celsius = int(input())     # str to int
+
+# or
+celsius = float(input())    # str to float
+
+
+fahrenheit = (celsius * 9/5)+32 # int
 
 print(f"The result is: {fahrenheit}.")
 
@@ -1304,3 +1341,14 @@ from https://www.pythonmorsels.com/type-coercion/
 
 Hule, V. (2021, June 6). Python Break, Continue, and Pass. Pynative.com. Retrieved December 20, 2022, 
 from https://pynative.com/python-break-continue-pass/
+
+OAIC (2018, June 5). Guide to securing personal information. Office of the Australian Information Commissioner (OAIC). 
+Retrieved January 9, 2023, from https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-securing-personal-information.
+
+OAIC (2019, July 22). Chapter 1: APP 1 — Open and transparent management of personal information. Office of the 
+Australian Information Commissioner (OAIC). Retrieved January 9, 2023, 
+from https://www.oaic.gov.au/privacy/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information
+
+
+OAIC (2015, May 6). Protecting customers' personal information. Office of the Australian Information Commissioner 
+(OAIC). Retrieved January 9, 2023, from https://www.oaic.gov.au/privacy/guidance-and-advice/protecting-customers-personal-information
