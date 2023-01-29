@@ -523,8 +523,68 @@ ethical standards and responsibilities (Attorney-General's Department, n.d).
 
 ### Ethical issue 2: Intellectual Property, Copyright, and Acknowledgement
 
-IT professionals are responsible for respecting and upholding intellectual property rights, including copyright laws. 
+ IT professionals are responsible for understanding and adhering to intellectual property rights, including copyright 
+ laws, to ensure legal compliance and respect for creators' rights.
 
+The distribution of copyrighted material without proper permission or attribution will result in a Copyright 
+Infringement. Additionally, IT professionals should ensure to properly acknowledge any sources or influences in their 
+work, as plagiarism violates ethical standards. 
+
+In addition to these responsibilities, IT professionals are responsible for protecting their clients' or employers' 
+intellectual property rights, including implementing security measures to prevent unauthorized access or use of 
+proprietary information.
+
+IT professionals are also responsible for being aware of and complying with relevant laws and regulations related to 
+intellectual property, copyright, and acknowledgement in their jurisdiction.
+According to business.gov.au (2022), intellectual property rights in Australia can be anything from an idea or 
+creation to a name. The most common intellectual property rights are:
+
+-	Patents - protect inventions and new processes
+-	Trademarks - protect logos, words and other branding
+-	Copyright - protects art, writing, music, film, and computer programs
+-	Registered designs - protects the visual design of a product
+-	Circuit layout rights - protect layout designs or plans of integrated circuits used in computer-generated designs
+-	Plant breeder's rights - protect the commercial rights of new plant varieties (business.gov.au, 2022, para 3)
+
+IT professionals must act in a manner that is respectful of the rights of creators and owners of intellectual property 
+and ensure that their actions do not violate these rights. To ensure this, IP Australia oversees the functions of all 
+IP legislation in Australia, providing clear guidelines on intellectual property, copyright and acknowledgement 
+(IP Australia, n.d).
+
+<br>
+
+### Case Study into ethical issue-2: Oracle vs Google
+
+A well-known case in 2010 of copyright infringement In the IT industry is the Oracle vs Google case. Oracle accused 
+Google of copyright infringement for using Oracle's Java API to develop the Android operating system.
+
+After several rounds of litigation, the Supreme Court eventually ruled in favour of Google. In this case, it was 
+discovered that Google had used Java code without proper licensing, which led to Oracle's accusations of copyright 
+infringement (Google LLC v. Oracle America, Lin., 2021).
+
+According to US copyright law, the court held that Google copying parts of the Java API to create the Android platform 
+was considered fair use. Still, this case highlights the importance of proper licensing and attribution when using 
+proprietary technology and the need for clear communication and understanding between companies regarding using 
+intellectual property (Ferrandis, 2021).
+
+An IT professional should respond to the Oracle v. Google case by understanding the importance of proper licensing and
+attribution when using proprietary technology. To mitigate or prevent ethical breaches, an IT professional should take
+the following steps:
+
+<br>
+
+1.	Understand their jurisdiction's laws and regulations on intellectual property, copyright, and software licensing.
+2.	Research and obtain licenses or permissions before using proprietary technology or code.
+3.	Ensure that proprietary technology or code is clearly and correctly attributed.
+4.	Develop and implement strict security measures to protect proprietary information and prevent unauthorized access or use.
+5.	Communicate clearly with clients or employers about using proprietary technology and IP.
+6.	Regularly review and update the company's policies and procedures related to intellectual property, copyright, and software licensing to ensure compliance with relevant laws and regulations.
+
+<br>
+
+Copyright, intellectual property, and intellectual acknowledgement laws are at risk of being outdated due to the rapid 
+progression of technology. By taking these steps, an IT professional can help ensure that they and their organization 
+are acting ethically and legally concerning intellectual property, copyright, and acknowledgment.
 
 ---
 
@@ -532,8 +592,6 @@ IT professionals are responsible for respecting and upholding intellectual prope
 ## Q8:	Explain control flow, using examples from the Python programming language
 
 <br>
-
-
 
 #### 💲 __Solution__
 
@@ -1349,6 +1407,19 @@ OAIC (2019, July 22). Chapter 1: APP 1 — Open and transparent management of pe
 Australian Information Commissioner (OAIC). Retrieved January 9, 2023, 
 from https://www.oaic.gov.au/privacy/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information
 
-
 OAIC (2015, May 6). Protecting customers' personal information. Office of the Australian Information Commissioner 
 (OAIC). Retrieved January 9, 2023, from https://www.oaic.gov.au/privacy/guidance-and-advice/protecting-customers-personal-information
+
+Attorney-General's Department (n.d.). Privacy - Privacy Act 1988. Australian Government. Retrieved January 12, 2023, 
+from https://www.ag.gov.au/rights-and-protections/privacy
+
+Australian Government (2022, November 24). Intellectual property. Business.gov.au. Retrieved January 10, 2023, 
+from https://business.gov.au/planning/protect-your-brand-idea-or-creation/intellectual-property
+
+IP Australia (n.d.). IP legislation in Australia. Ipaustralia.gov.au. Retrieved January 10, 2023, 
+from https://www.ipaustralia.gov.au/about-us/legislation
+
+Ferrandis, C. M. (2021). Google v. Oracle: When Innovation Overwhelmed Copyright Law. Global Innovation, Policy & Law 
+Research Group (GIPLaw-UA). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3821548
+
+Google LLC v. Oracle America, Inc (2021) 141 CLR 1183 (US.).
