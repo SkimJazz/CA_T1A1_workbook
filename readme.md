@@ -1,4 +1,6 @@
-# T1A1-Workbook
+# Coder Academy T1A1-Workbook
+### Joshua Bennett ID 13399
+Wed 1st February 2023
 
 ---
 
@@ -20,7 +22,8 @@ the "Element Content" (the text affected by the tag meaning) and the element's "
 block-level elements or inline elements. Figure 1 shows the anatomy of an HTML Element.
 
 
-<img src="./images/workbook_q1_markup-languages.jpg" width="814" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="448">
+<img src="./images/workbook_q1_markup-languages.jpg" width="814" alt="Anatomy of an HTML element" height="448">
+
 Figure-1 Anatomy of an HTML Element
 
 ---
@@ -37,7 +40,6 @@ Figure-1 Anatomy of an HTML Element
 <br>
 
 #### 💲 __Solution__
-
 
 ### Packets:
 
@@ -73,7 +75,6 @@ called IPv6, a longer IP address format resulting in a 128-bit numbered address 
 unique IP addresses for the increase of connected devices and the ongoing development of the internet 
 (Code.org, 2015, 0:04:04).
 
-
 <br>
 
 ### Routers and Routing:
@@ -89,7 +90,6 @@ most time-effective paths available for each piece of data based on the destinat
 
 Factors that affect data routing are the relationship between companies and political roadblocks, so having multiple 
 path options for sending data ensures the internet's reliability in data delivery (Code.org, 2015, 0:04:01).
-
 
 <br>
 
@@ -119,8 +119,6 @@ the major Domains, such as .org, .com, .net, and .edu.
 <br>
 
 #### 💲 __Solution__
-
-
 
 ### Transmission Control Protocol (TCP):
 
@@ -160,13 +158,11 @@ Figure 2 shows the technologies and architecture of a web browser.
 
 <br>
 
-<img src="./images/T1A1_workbookQ3_web-browser.png" width="800" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="500">
+<img src="./images/T1A1_workbookQ3_web-browser.png" width="800" alt="Web browser architecture" height="500">
 
 Figure-2 Web browser architecture
 
-
 <br>
-
 
 Web browsers play a pivotal role in accessing information on the internet. A user directly interacts with the web 
 browser on their device via the User Interface (UI). UI is responsible for the visual elements of the browser, such as
@@ -183,7 +179,6 @@ generally appear alongside the rendered webpage within the browser. A developer 
 engagement of webpages, and end users' engagement is a critical factor when designing webpages. Developers usually 
 follow webpage and website design principles; developer tools are a powerful way to inspect, debug, emulate, and check 
 the performance of webpages (Microsoft, 2022).
-
 
 ---
 
@@ -331,7 +326,6 @@ print(character)
 
 ```
 
-
 ---
 
 
@@ -340,8 +334,6 @@ print(character)
 <br>
 
 #### 💲 __Solution__
-
-
 
 Interpreters and Compilers convert high-level programming languages into a computer's elemental language, known as 
 machine code; however, there are several essential differences between Interpreters and Compilers (TechTarget, 2018; 
@@ -356,14 +348,8 @@ into machine code (Geeksforgeeks, 2022). Table-1 shows the difference between in
 <br>
 
 #### Table-1: Difference between interpreters and compilers
-<img src="./images/T1A1_workbookQ5-table.jpg" width="1000" alt="Control-Flow flow chart showing three types of Flow Control in Python" height="1200">
 
-
-
-
-
-
-
+<img src="./images/T1A1_workbookQ5-table.jpg" width="1000" alt="Interpreter vs Compiler table" height="1200">
 
 ---
 
@@ -641,9 +627,7 @@ if height >= 120:
 
 <br>
 
-### __```if-else``` statement__
-
-<br>
+### __```if-else``` statement:__
 
 
 The addition of the ```else``` component in the ```if-else``` statement allows Python to catch another condition.  The following example shows the addition of the ```else``` component.
@@ -667,9 +651,8 @@ else:
 
 <br>
 
-### __```if-elif-else``` statements__
+### __```if-elif-else``` statements:__
 
-<br>
 
 ```py
 height = float(input("enter your height in m: "))
@@ -759,7 +742,7 @@ and proceed to the next iteration or ignoring a condition `pass` and run the pro
 
 <br>
 
-### Break:
+### Break statement:
 
 `break` statements are used for exiting a loop early before the loop condition is met. Upon this, the loop is 
 immediately terminated when a break statement is encountered, and the program will resume control after the loop 
@@ -789,7 +772,7 @@ for i in range(10):
 <br>
 
 
-### Continue:
+### Continue statement:
 
 `continue` statements are used within a loop (for or while) to skip the current iteration and move on to the following 
 line of code without terminating the loop (Hule, 2021).
@@ -811,7 +794,7 @@ for i in range(10):
 
 <br>
 
-### Pass:
+### Pass statement:
 
 A `pass` statement is defined as a null operation; in other words, it does not do anything! However, they are helpful 
 for testing a new section of code without implementing the entire logic.
@@ -893,7 +876,7 @@ while count <= 5:
 
 <br>
 
-### 💲 __Solution__
+#### 💲 __Solution__
 
 ### Type Conversion vs Type Coercion
 
@@ -949,8 +932,9 @@ TypeError: can only concatenate str (not "int") to str
 
 ## Q10: 	Explain data types, using examples
 
+<br>
 
-### 💲 __Solution__
+#### 💲 __Solution__
 
 There are many Python Data Types, but generally, a Python Data Type is a concept used to define some value stored in a variable. Data Types can take on different sizes and values and help you understand the operation needed to calculate some value.
 
@@ -966,7 +950,7 @@ For this workbook, the following 6 Python Data Types will be explained.
 
 <br>
 
-### **String ( ) data type**
+### **String ( ) data type:**
 
 The data type ```string()``` is a string of characters that are created with double quotes.
 The ```string()``` data type is useful for Subscripting, which is a method used for pulling
@@ -991,7 +975,7 @@ print("Hello"[4])  #[4] output = letter "o"
 ```
 <br>
 
-### **integer ( ) data type**
+### **integer ( ) data type:**
 
 The data type ```integer()``` refers to a number with no decimal places (whole number). The ```int``` data type is 
 useful for math operations.
@@ -1025,7 +1009,7 @@ print("123" + "345")
 ```
 <br>
 
-### **float ( ) data type**
+### **float ( ) data type:**
 
 ```float()``` also known as floating-Point Number 
 
@@ -1038,8 +1022,9 @@ print("123" + "345")
 # - The decimal point can float around a number because it could occur
 #   at any point in the number.
 ```
+<br>
 
-### **Boolean values (True/False)**
+### **Boolean values (True/False):**
 
 ```py
 True
@@ -1053,8 +1038,9 @@ False
 # - Booleans used to test if something is True / False and for your
 #   program to respond accordingly.
 ```
+<br>
 
-### **Range () data type**
+### **Range ( ) data type:**
 
 ```range()``` is a Python built-in function used for generating a sequence of numbers within a range of numbers
 starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
@@ -1076,11 +1062,10 @@ for num in range(1, 10):
 # Output 1 2 3 4 5 6 7 8 9 
 # NOTE range() will output numbers from 1 to 10 but will NOT include 10
 
-
 ```
+<br>
 
-
-### **List () data type**
+### **List ( ) data type:**
 
 A ```list()``` is what you would call a Data Structure. It is a way of organizing and storing data in Python.
 And are generally a way to keep an ordered sequence of multiple items in a single variable.
@@ -1100,7 +1085,9 @@ print(queensland_cities)
  - Identify the classes you would use to solve the problem
  - Write a short explanation of why you would use the classes you have identified
 
-### 💲 __Solution__
+<br>
+
+#### 💲 __Solution__
 
 Using the following classes:
 
@@ -1126,8 +1113,8 @@ can only interact with each other through their methods and properties, making i
 without affecting the other parts of the application. These classes provide a logical and organized structure and can 
 be designed in a way that they are independent, reusable, and easy to understand and maintain.
 
-
 ---
+
 
 ## Q12:	Identify and explain the error in the code snippet below that is preventing correct execution of the program
 
@@ -1136,8 +1123,9 @@ celsius = input()
 fahrenheit = (celsius * 9/5)+32
 print(f"The result is: {fahrenheit}.")
 ```
+<br>
 
-### 💲 __Solution__
+#### 💲 __Solution__
 
 In Python, all inputs are Strings regardless of weather the user inputs a number
 or a letter.
@@ -1175,8 +1163,9 @@ print (i)
     arr[i+1] = arr[i]
 ```
 
+<br>
 
-### 💲 __Solution__
+#### 💲 __Solution__
 ```py
 arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
 i = 0
@@ -1202,20 +1191,18 @@ arr[i + 1] = j
 
 <br>
 
-### 💲 __Solution__
+#### 💲 __Solution__
 
 ```py
-1. Start.
-2. Initialize a variable 'primeNum' as an empty list.
-3. Use a for loop to iterate through the range of numbers between 1 and 100 (inclusive).
-4. For each number, set a variable 'isPrime' to 'True'.
-5. Use a nested for loop to iterate through the range of numbers between 2 and the current number (exclusive).
-6. Within the nested loop, check if the current number is divisible by any number in the range. If it is, set 'isPrime' to 'False' and break out of loop.
-7. After nested loop, check value of 'isPrime'. If 'True', append current number to the 'primeNum' list.
-8. After outer loop, print 'primeNum' list.
-9. End.
-
-
+1. Start
+2. Declare a 'primeList' variable and set as an empty list
+3. Use a for loop to iterate through the range of numbers between 1 and 100 (inclusive)
+4. Declare new variable 'isPrime' for each number and set variable to 'True'
+5. Use a nested for loop to iterate through the range of numbers between 2 and the current number (exclusive)
+6. In the nested loop, check if the current number is divisible by any number in the range. If it is, set 'isPrime' to 'False' and break out of loop
+7. After nested loop, check value of 'isPrime'. If 'True', append current number to the 'primeList' list
+8. After outer loop, print 'primeList' list
+9. End
 ```
 
 ---
@@ -1223,9 +1210,11 @@ arr[i + 1] = j
 ## Q15:	Write pseudocode OR Python code for the following problem:
 *You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”*.
 
-### 💲 __Solution__
+<br>
 
-__Pseudocode__
+#### 💲 __Solution__
+
+__Pseudocode:__
 
 ```py
 # if raining is true and temp is less than 15:
@@ -1240,8 +1229,9 @@ __Pseudocode__
 # else:
     # print "It's warm and raining"
 ```
+<br>
 
-__Python Code__
+__Python Code:__
 
 ```py
 raining = True
@@ -1284,8 +1274,9 @@ weather_forecast()
 - a)Their overall "coding skill score" 
 - b) Skills they may want to learn, and how much each one would improve their score
 
+<br>
 
-### 💲 __Solution__
+#### 💲 __Solution__
 
 ```py
 
