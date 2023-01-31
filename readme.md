@@ -1193,6 +1193,11 @@ arr[i + 1] = j
 
 #### 💲 __Solution__
 
+
+<img src="./images/T1A1_workbookQ14_prime-number-pseudo.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python">
+
+
+
 ```py
 1. Start
 2. Declare a 'primeList' variable and set as an empty list
