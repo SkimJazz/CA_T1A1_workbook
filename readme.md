@@ -22,7 +22,7 @@ the "Element Content" (the text affected by the tag meaning) and the element's "
 block-level elements or inline elements. Figure 1 shows the anatomy of an HTML Element.
 
 
-<img src="./images/workbook_q1_markup-languages.jpg" width="814" alt="Anatomy of an HTML element" height="448">
+<img src="./assets/workbook_q1_markup-languages.jpg" width="814" alt="Anatomy of an HTML element" height="448">
 
 Figure-1 Anatomy of an HTML Element
 
@@ -158,7 +158,7 @@ Figure 2 shows the technologies and architecture of a web browser.
 
 <br>
 
-<img src="./images/T1A1_workbookQ3_web-browser.png" width="800" alt="Web browser architecture" height="500">
+<img src="./assets/T1A1_workbookQ3_web-browser.png" width="800" alt="Web browser architecture" height="500">
 
 Figure-2 Web browser architecture
 
@@ -349,7 +349,7 @@ into machine code (Geeksforgeeks, 2022). Table-1 shows the difference between in
 
 #### Table-1: Difference between interpreters and compilers
 
-<img src="./images/T1A1_workbookQ5-table.jpg" width="1000" alt="Interpreter vs Compiler table" height="1200">
+<img src="./assets/T1A1_workbookQ5-table.jpg" width="1000" alt="Interpreter vs Compiler table" height="1200">
 
 ---
 
@@ -406,14 +406,14 @@ and the programmers' perception of different programming languages being challen
 
 <br>
 
-<img src="./images/T1A1_workbookQ6_python-1.png" width="840" alt="Python trend line">
+<img src="./assets/T1A1_workbookQ6_python-1.png" width="840" alt="Python trend line">
 
 Figure 3 - Python trend line from 2016 to 2022
 
 <br>
 
 
-<img src="./images/T1A1_workbookQ6_python-2.png" width="840" alt="Python trend scale">
+<img src="./assets/T1A1_workbookQ6_python-2.png" width="840" alt="Python trend scale">
 
 Figure 4 - Python popularity scale 2021 to 2022
 
@@ -436,7 +436,7 @@ figure 5 shows some use cases for JavaScript (JavaTpoint, n.d).
 
 <br>
 
-<img src="./images/T1A1_workbookQ6_JS.png" width="840" alt="JavaScript use-cases">
+<img src="./assets/T1A1_workbookQ6_JS.png" width="840" alt="JavaScript use-cases">
 
 Figure 5 - JavaScript use-cases
 
@@ -586,7 +586,7 @@ Control Flow is a term used in Python to describe the order in which a Python bl
 
 In Python Control Flow can be divided into the three following categories show in the flow chart below
 
-<img src="./images/T1A1_workbookQ8_control-flow.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python">
+<img src="./assets/T1A1_workbookQ8_control-flow.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python">
 
 <br>
 
@@ -1194,7 +1194,7 @@ arr[i + 1] = j
 #### 💲 __Solution__
 
 
-<img src="./images/T1A1_workbookQ14_prime-number-pseudo.png" width="840" alt="Control-Flow flow chart showing three types of Flow Control in Python">
+<img src="./assets/T1A1_workbookQ14_prime-number-pseudo.png" width="840" alt="Prime number pseudo flowchart">
 
 
 
